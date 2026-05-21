@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Arquivos temporários do Word (lock file enquanto o doc está aberto)
+~$*.docx
+~$*.doc
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependências (caso adicione um build no futuro)
+node_modules/
+dist/
+build/
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.*.local

@@ -1,0 +1,214 @@
+{
+  "meta": {
+    "product": "Visiometrics",
+    "tagline": "Sistema operacional de maturidade organizacional",
+    "philosophy_anchor": "Resultados sustentáveis nascem da evolução simultânea da operação, da liderança e da cultura.",
+    "version": "1.0",
+    "last_updated": "2026-05-21",
+    "contact": {
+      "email": "comercial@visiometrics.com.br",
+      "tone": "consultivo, sem jargão de vendas, focado em maturidade organizacional"
+    }
+  },
+
+  "guidelines_for_agent": [
+    "Sempre que possível, use as palavras do próprio produto: 'maturidade', 'consciência organizacional', 'operação, liderança e cultura', 'desenvolvimento humano'.",
+    "Evite jargão de software. Fale como um consultor de gestão.",
+    "Se a pergunta cair fora dos tópicos abaixo, ofereça encaminhar para o comercial.",
+    "Nunca prometa funcionalidades não listadas nos módulos.",
+    "Trate 'pacote' e 'módulo' como sinônimos para o usuário leigo.",
+    "Sempre que falar de implementação, lembre: 'vá implementando de acordo com a maturidade da sua organização'."
+  ],
+
+  "topics": [
+    {
+      "id": "o-que-e",
+      "category": "Visão geral",
+      "keywords": ["o que é", "o que e", "que é", "que e", "definição", "definicao", "visiometrics", "produto", "plataforma", "explique", "sobre"],
+      "question": "O que é o Visiometrics?",
+      "answer": "O Visiometrics é um sistema operacional de maturidade organizacional. Ele conecta operação, liderança, cultura e desenvolvimento humano em um único ciclo contínuo de evolução. Não é um ERP nem um dashboard isolado — é a inteligência integrada sobre a maturidade da sua operação e das suas pessoas."
+    },
+    {
+      "id": "filosofia",
+      "category": "Filosofia",
+      "keywords": ["filosofia", "premissa", "ideia", "conceito", "missão", "missao", "porque", "por que", "diferença", "diferenca"],
+      "question": "Qual é a filosofia por trás do Visiometrics?",
+      "answer": "A premissa é: 'Resultados sustentáveis nascem da evolução simultânea da operação, da liderança e da cultura'. Uma empresa não melhora apenas porque mede KPI. Ela melhora quando as pessoas entendem o processo, os líderes desenvolvem pessoas, os comportamentos corretos são reforçados, os desvios são tratados rapidamente e existe consciência coletiva da qualidade."
+    },
+    {
+      "id": "para-quem",
+      "category": "Visão geral",
+      "keywords": ["para quem", "público", "publico", "target", "indústria", "industria", "empresa", "tipo de empresa", "perfil"],
+      "question": "Para quem é o Visiometrics?",
+      "answer": "Empresas com áreas operacionais que precisam estruturar avaliação contínua de equipes e gestores, programas de qualidade (5S, auditorias), desenvolvimento de líderes e cultura. Casos típicos: indústrias, agronegócio, logística, cooperativas e operações com múltiplas unidades."
+    },
+    {
+      "id": "problema",
+      "category": "Problema",
+      "keywords": ["problema", "dor", "dores", "resolve", "soluciona", "apagando incêndio", "incendio", "intuitivo", "achismo"],
+      "question": "Que problemas o Visiometrics resolve?",
+      "answer": "Empresas operam apagando incêndios — decisões intuitivas, liderança inconsistente, cultura informal, treinamento desconectado, indicadores isolados e auditorias que não geram transformação. O Visiometrics integra tudo isso em uma única inteligência de maturidade, ligando comportamento → execução → resultado → cultura."
+    },
+    {
+      "id": "cinco-dimensoes",
+      "category": "Filosofia",
+      "keywords": ["dimensões", "dimensoes", "5 dimensões", "5 dimensoes", "cinco dimensões", "lentes", "modelo", "estrutura"],
+      "question": "Quais são as 5 dimensões observadas?",
+      "answer": "A plataforma observa a empresa por 5 lentes integradas: 1) Operação — está executando corretamente? 2) Pessoas — estão evoluindo? 3) Liderança — os líderes estão formando equipes maduras? 4) Cultura — fortalece ou destrói a operação? 5) Inteligência Organizacional — a empresa está aprendendo com ela mesma?"
+    },
+    {
+      "id": "modulos-overview",
+      "category": "Módulos",
+      "keywords": ["módulos", "modulos", "pacotes", "produtos", "catálogo", "catalogo", "quais funcionalidades"],
+      "question": "Quais módulos existem?",
+      "answer": "São 10 módulos em 3 categorias: NÚCLEO (incluído em qualquer plano) — gestão de pessoas, equipes, processos, indicadores e ações de melhoria. PACOTES — 5S, Acompanhamento Operacional, Auditoria da Gestão, Certificação & Treinamentos, Matriz de Maturidade, ECL (Líderes) e Cadeia/Qualidade Colaborativa. ADD-ONS — Gestão de Documentos e Inteligência Avançada (IA)."
+    },
+    {
+      "id": "5s",
+      "category": "Módulo: 5S",
+      "keywords": ["5s", "cinco s", "senso", "organização", "organizacao", "ambientes", "checklists", "auditoria 5s"],
+      "question": "Como funciona o módulo 5S?",
+      "answer": "O 5S do Visiometrics traz ambientes, checklists configuráveis, auditorias, biblioteca de melhores práticas, histograma e ranking. Não é um evento isolado de qualidade — é um ciclo contínuo que conversa com treinamento, maturidade e PDI. A premissa: organização física e organização mental estão conectadas."
+    },
+    {
+      "id": "matriz-maturidade",
+      "category": "Módulo: Matriz de Maturidade",
+      "keywords": ["matriz", "maturidade", "habilidade", "vontade", "quadrante", "quadrantes", "avaliação", "pares"],
+      "question": "O que é a Matriz de Maturidade?",
+      "answer": "Classifica cada funcionário em um dos 4 quadrantes formados por Habilidade × Vontade. Inclui avaliação entre pares, registro de absenteísmo, parecer do gestor e geração automática de planos de ação por quadrante. Ajuda o líder a saber onde cada pessoa está — e onde precisa estar."
+    },
+    {
+      "id": "ecl",
+      "category": "Módulo: ECL",
+      "keywords": ["ecl", "educação", "educacao", "líder", "lideres", "líderes", "líderança", "lideranca", "diagnóstico líder", "cascata", "prontuário", "pdi"],
+      "question": "O que é o ECL?",
+      "answer": "ECL é a Educação Continuada do Líder. Inclui avaliação invertida (do liderado para o líder), ciclos de avaliação, diagnóstico individual, cascata hierárquica, prontuário do líder, PDIs e trilha de conteúdos. Trata o líder não como 'chefe que cobra', mas como agente formador de maturidade."
+    },
+    {
+      "id": "certificacao",
+      "category": "Módulo: Certificação",
+      "keywords": ["certificação", "certificacao", "treinamento", "treinamentos", "turma", "turmas", "instrutor", "trilha", "capacitação", "capacitacao"],
+      "question": "Como funciona o módulo de Certificação & Treinamentos?",
+      "answer": "Trilhas de certificação, turmas, gestão de instrutores, avaliações teóricas e práticas, materiais de treinamento, acompanhamento dos inscritos e relatórios. Conecta o desenvolvimento técnico das pessoas aos indicadores operacionais — quem se certifica afeta a Matriz de Maturidade automaticamente."
+    },
+    {
+      "id": "acompanhamento-operacional",
+      "category": "Módulo: Acompanhamento Operacional",
+      "keywords": ["acompanhamento", "operacional", "campo", "foto", "áudio", "audio", "observação", "observacao", "tópico", "topico"],
+      "question": "O que é o Acompanhamento Operacional?",
+      "answer": "Avaliações em campo registradas com foto e áudio, organizadas por tópicos de observação configuráveis. Líderes acompanham equipes in loco e geram dashboard consolidado. Alimenta tanto a Matriz de Maturidade quanto Ações de Melhoria."
+    },
+    {
+      "id": "auditoria-gestao",
+      "category": "Módulo: Auditoria da Gestão",
+      "keywords": ["auditoria da gestão", "auditoria da gestao", "in loco", "benchmarking", "unidades", "gerencial"],
+      "question": "Como funciona a Auditoria da Gestão?",
+      "answer": "Auditoria gerencial in loco, dashboard de resultados e benchmarking entre unidades. Útil para empresas multi-planta que precisam comparar a maturidade operacional entre fábricas, filiais ou regionais."
+    },
+    {
+      "id": "vizo-feedback",
+      "category": "Módulo: Cadeia / Qualidade Colaborativa",
+      "keywords": ["vizo", "feedback", "feedback direto", "cliente", "fornecedor", "ranking", "ocorrência", "ocorrencia", "qualidade colaborativa", "cadeia"],
+      "question": "O que é o módulo de Cadeia / Qualidade Colaborativa (Vizo + Feedback Direto)?",
+      "answer": "Combina Vizo (gestão de relações cliente↔fornecedor, ações Vizo, ocorrências de qualidade) e Feedback Direto (registro de ocorrências entre equipes, painéis de cliente e fornecedor, ranking). Ideal para empresas cujas equipes internas servem umas às outras como cliente/fornecedor."
+    },
+    {
+      "id": "ia-avancada",
+      "category": "Add-on: Inteligência Avançada",
+      "keywords": ["ia", "inteligência avançada", "inteligencia avancada", "inteligência operacional", "anomalia", "correlação", "correlacao", "análise de eficácia", "analise de eficacia", "consulta de dados", "organograma"],
+      "question": "O que tem no add-on de Inteligência Avançada (IA)?",
+      "answer": "Quatro recursos: Inteligência Operacional (correlações, variáveis externas, alertas de anomalia), Análise de Eficácia (avaliar se ações de melhoria realmente funcionaram comparando antes/depois), Consulta de Dados (busca e exportação) e Organograma. É um add-on premium — só vende em cima de outro pacote."
+    },
+    {
+      "id": "documentos",
+      "category": "Add-on: Gestão de Documentos",
+      "keywords": ["documentos", "anexo", "anexos", "versionamento", "gestão de documentos", "gestao de documentos", "arquivos"],
+      "question": "Como funciona a Gestão de Documentos?",
+      "answer": "Add-on que adiciona anexos e versionamento aos processos — útil quando a empresa precisa amarrar procedimentos, instruções de trabalho e POPs aos processos cadastrados na plataforma. Vende junto a outro pacote."
+    },
+    {
+      "id": "como-comecar",
+      "category": "Implementação",
+      "keywords": ["começar", "comecar", "implementação", "implementacao", "implementar", "primeiro passo", "onboarding", "startar", "como contratar", "por onde"],
+      "question": "Por onde começo a implementar?",
+      "answer": "Sempre pelo Núcleo: cadastros básicos (processos, pessoas, equipes), indicadores e vínculos. A partir daí, vá implementando de acordo com a maturidade da sua organização — sem precisar comprar tudo de uma vez. A maioria começa pelo 5S ou pela Matriz de Maturidade, dependendo do que dói mais."
+    },
+    {
+      "id": "ordem-cadastros",
+      "category": "Implementação",
+      "keywords": ["ordem", "sequência", "sequencia", "passo a passo", "passos", "fluxo", "processos primeiro"],
+      "question": "Qual a ordem certa de cadastros?",
+      "answer": "A sequência recomendada é: 1) Processos, 2) Pessoas, 3) Equipes (UGBs), 4) Indicadores, 5) Vínculos (indicador → equipe + meta), 6) Inserir dados. Cada passo é pré-requisito do seguinte. Indicadores não funcionam sem Processos; Vínculos não funcionam sem Indicadores e Equipes."
+    },
+    {
+      "id": "preco",
+      "category": "Comercial",
+      "keywords": ["preço", "preco", "valor", "custo", "quanto custa", "investimento", "mensalidade", "contrato", "comprar", "contratar"],
+      "question": "Quanto custa o Visiometrics?",
+      "answer": "O modelo é modular: cada pacote tem precificação própria. O ideal é uma conversa rápida com o comercial para entender quais módulos fazem sentido pra sua operação hoje e quais entram conforme você amadurece. Posso te conectar pelo e-mail comercial@visiometrics.com.br."
+    },
+    {
+      "id": "diferenca-erp",
+      "category": "Comparações",
+      "keywords": ["erp", "diferença", "diferenca", "dashboard", "concorrente", "vs", "comparar", "rh", "sistema de rh"],
+      "question": "Qual a diferença para um ERP ou um sistema de RH?",
+      "answer": "ERP cuida da operação financeira e fluxo de transações. Sistemas de RH cuidam de folha, ponto e desempenho administrativo. O Visiometrics cuida de algo que nenhum dos dois faz: medir e desenvolver a maturidade da operação, das pessoas, da liderança e da cultura como um sistema único. Eles convivem, não competem."
+    },
+    {
+      "id": "papel-do-lider",
+      "category": "Conceito",
+      "keywords": ["líder", "líderes", "lider", "papel", "chefe", "gerente", "gestor", "função do líder", "papel do líder"],
+      "question": "Qual o papel do líder no Visiometrics?",
+      "answer": "O sistema enxerga o líder como agente formador de maturidade — não como 'chefe que cobra'. Isso aparece em feedbacks contínuos, avaliação em cascata, PDIs, benchmarking entre unidades e auditoria gerencial. O líder vira mentor, avaliador, desenvolvedor e mantenedor da cultura."
+    },
+    {
+      "id": "cultura",
+      "category": "Conceito",
+      "keywords": ["cultura", "comportamento", "hábito", "habito", "disciplina", "valores"],
+      "question": "Como o Visiometrics trata cultura organizacional?",
+      "answer": "A cultura para de ser 'informal' e passa a ser medida, reforçada e acompanhada. Comportamentos esperados aparecem em checklists, auditorias, feedbacks de pares e gestores. Quando os comportamentos certos ganham visibilidade, a cultura se fortalece — sem palestras motivacionais."
+    },
+    {
+      "id": "resultados-tipicos",
+      "category": "Resultados",
+      "keywords": ["resultado", "resultados", "ganho", "ganhos", "transformação", "transformacao", "o que muda", "benefícios", "beneficios"],
+      "question": "Quais resultados as empresas costumam ver?",
+      "answer": "Seis transformações típicas: 1) Clareza operacional (deixar de operar por percepção), 2) Conhecimento fora da cabeça de uma pessoa (maturidade vira sistema), 3) Desenvolvimento contínuo (treino vira ciclo, não evento), 4) Cultura forte e mensurável, 5) Liderança consistente, 6) Aprendizado organizacional (padrões e gaps ficam visíveis)."
+    },
+    {
+      "id": "lean-kaizen",
+      "category": "Comparações",
+      "keywords": ["lean", "kaizen", "toyota", "gemba", "gestão visual", "gestao visual", "melhoria contínua", "melhoria continua"],
+      "question": "Tem relação com Lean / Kaizen?",
+      "answer": "Sim. O Visiometrics reinterpreta princípios de Kaizen, Lean Manufacturing, Toyota Way, Gemba e gestão visual em uma plataforma digital orientada por dados e comportamento. Mantém o espírito (melhoria contínua, respeito pelas pessoas, padrões visuais) e adiciona o que essas filosofias não tinham: uma camada de inteligência transversal."
+    },
+    {
+      "id": "demo",
+      "category": "Comercial",
+      "keywords": ["demo", "demonstração", "demonstracao", "ver na prática", "ver na pratica", "agendar", "teste", "trial", "experimentar"],
+      "question": "Posso ver uma demonstração?",
+      "answer": "Sim — agendar uma demo de 30 minutos é o caminho mais rápido para entender se faz sentido pra sua operação. Me avisa que eu te conecto com o time pelo e-mail comercial@visiometrics.com.br."
+    },
+    {
+      "id": "implantacao-tempo",
+      "category": "Implementação",
+      "keywords": ["quanto tempo", "demora", "prazo", "implantar", "implantação", "implantacao", "tempo de implementação", "rápido", "rapido", "demorado"],
+      "question": "Quanto tempo demora a implantação?",
+      "answer": "Não tem resposta única — depende do que você ativa primeiro. O Núcleo (cadastros + indicadores) costuma ficar produtivo em 2 a 4 semanas. Pacotes específicos (5S, Matriz, ECL) entram em ciclos curtos depois, conforme a empresa amadurece. A ideia é nunca tentar implementar tudo de uma vez."
+    }
+  ],
+
+  "fallback": {
+    "no_match": "Não encontrei essa resposta na minha base. Posso te conectar com nosso time pelo e-mail comercial@visiometrics.com.br — eles respondem dúvidas mais específicas.",
+    "greeting": "Olá! Sou o assistente do Visiometrics. Posso responder sobre a filosofia, os módulos, a forma de implementação ou aspectos comerciais. Pergunte à vontade ou escolha um dos atalhos abaixo."
+  },
+
+  "suggested_questions": [
+    "O que é o Visiometrics?",
+    "Quais módulos existem?",
+    "Por onde começo a implementar?",
+    "Quanto custa?",
+    "Qual a diferença para um ERP?",
+    "Como funciona a Matriz de Maturidade?"
+  ]
+}
