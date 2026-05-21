@@ -1308,6 +1308,244 @@ h2 em,
   gap: 0.4rem;
 }
 
+/* ---- Mock: ECL Cascata ----------------------------------- */
+.mock__body--ecl {
+  padding: 1.4rem 1.4rem 1.6rem;
+}
+
+.mock__ecl-head h4 {
+  font-size: 1rem;
+  margin-bottom: 0.15rem;
+}
+
+.mock__ecl-head p {
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-bottom: 1.1rem;
+}
+
+.mock__tree {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.55rem;
+  margin-bottom: 1rem;
+}
+
+.mock__tier {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.mock__tier--mid {
+  justify-content: space-around;
+}
+
+.mock__tier--leaf {
+  justify-content: space-between;
+  gap: 0.4rem;
+}
+
+.mock__lines {
+  display: flex;
+  justify-content: center;
+  gap: clamp(2rem, 8vw, 4rem);
+  height: 14px;
+  position: relative;
+}
+
+.mock__lines--wide {
+  gap: clamp(0.6rem, 3vw, 1.3rem);
+}
+
+.mock__lines span {
+  width: 1px;
+  height: 100%;
+  background: linear-gradient(to bottom, #e5e5e8 0%, transparent 100%);
+}
+
+.mock__node {
+  --bg: #fff;
+  --border: var(--line);
+  --accent: var(--ink);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.5rem 0.65rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  position: relative;
+  min-width: 96px;
+  text-align: center;
+}
+
+.mock__node--azul     { --bg: #eff6ff; --border: #bfdbfe; --accent: #1d4ed8; }
+.mock__node--verde    { --bg: #f0fdf4; --border: #bbf7d0; --accent: #166534; }
+.mock__node--amarelo  { --bg: #fffbeb; --border: #fde68a; --accent: #92400e; }
+.mock__node--vermelho { --bg: #fef2f2; --border: #fecaca; --accent: #b91c1c; }
+
+.mock__node--small {
+  min-width: 70px;
+  padding: 0.4rem 0.45rem;
+}
+
+.mock__node-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.7rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2px;
+}
+
+.mock__node--small .mock__node-avatar {
+  width: 24px;
+  height: 24px;
+  font-size: 0.62rem;
+}
+
+.mock__node strong {
+  font-family: var(--font-display);
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.1;
+}
+
+.mock__node--small strong {
+  font-size: 0.7rem;
+}
+
+.mock__node small {
+  font-size: 0.66rem;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.mock__node-score {
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  background: var(--accent);
+  color: #fff;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.66rem;
+  padding: 0.16rem 0.4rem;
+  border-radius: 999px;
+  border: 2px solid #fff;
+  line-height: 1.1;
+}
+
+/* ---- Mock: Auditoria 5S ---------------------------------- */
+.mock__body--5s {
+  padding: 1.3rem 1.4rem 1.5rem;
+}
+
+.mock__5s-head h4 {
+  font-size: 1rem;
+  margin-bottom: 0.15rem;
+}
+
+.mock__5s-head p {
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-bottom: 0.9rem;
+}
+
+.mock__5s-row {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 1rem;
+  align-items: center;
+}
+
+@media (max-width: 540px) {
+  .mock__5s-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.mock__radar {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.mock__rank {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.mock__rank li {
+  display: grid;
+  grid-template-columns: 22px 90px 1fr 30px;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.78rem;
+}
+
+.mock__rank-pos {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--ink);
+  color: #fff;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.7rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mock__rank-name {
+  font-weight: 500;
+  color: var(--ink);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mock__rank-bar {
+  height: 8px;
+  background: #f0f0f3;
+  border-radius: 999px;
+  overflow: hidden;
+  position: relative;
+}
+
+.mock__rank-bar i {
+  display: block;
+  height: 100%;
+  width: var(--p);
+  background: #2563eb;
+  border-radius: 999px;
+}
+
+.mock__rank-bar--low i {
+  background: #ef4444;
+}
+
+.mock__rank-score {
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: var(--ink);
+  text-align: right;
+  font-size: 0.82rem;
+}
+
 /* ---- Mock: Acompanhamento Operacional -------------------- */
 .mock__acomp-head h4 {
   font-size: 1rem;
