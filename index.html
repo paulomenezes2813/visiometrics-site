@@ -29,6 +29,7 @@
           <a href="#filosofia">Filosofia</a>
           <a href="#dimensoes">Dimensões</a>
           <a href="#modulos">Módulos</a>
+          <a href="#produto">Por dentro</a>
           <a href="#entrega">Resultados</a>
           <a href="#depoimentos">Depoimentos</a>
         </nav>
@@ -289,6 +290,193 @@
             <article class="outcome">
               <h3>Aprendizado organizacional</h3>
               <p>Padrões, causas recorrentes e gaps de liderança ficam visíveis — e tratáveis.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- POR DENTRO DA PLATAFORMA ======================================== -->
+      <section id="produto" class="section section--alt">
+        <div class="container">
+          <div class="section__head">
+            <span class="eyebrow">Por dentro da plataforma</span>
+            <h2>Telas que mostram a <em>maturidade</em> em movimento.</h2>
+            <p class="section__lead">
+              Visões que combinam evidência operacional com clareza visual — para
+              o líder enxergar onde cada equipe e cada pessoa está, sem precisar
+              traduzir planilhas.
+            </p>
+          </div>
+
+          <!-- MOCK 1 — MATRIZ DE MATURIDADE ============================== -->
+          <article class="mock">
+            <header class="mock__chrome">
+              <span class="mock__dots"><i></i><i></i><i></i></span>
+              <span class="mock__url">visiometrics.app / matriz-de-maturidade</span>
+            </header>
+            <div class="mock__body mock__body--matriz">
+              <div class="mock__matriz-head">
+                <div>
+                  <h3>Matriz de Maturidade</h3>
+                  <p>Habilidade × Vontade · 31 colaboradores · Maio/2026</p>
+                </div>
+                <button class="mock__btn">Gerar Planos com IA</button>
+              </div>
+
+              <div class="mock__quad" aria-hidden="true">
+                <!-- Quadrantes -->
+                <div class="mock__cell mock__cell--amarelo">
+                  <span class="mock__cell-label">Alta Habilidade</span>
+                  <div class="mock__bubbles">
+                    <span class="mock__bubble mock__bubble--am" data-g="">M</span>
+                    <span class="mock__bubble mock__bubble--am mock__bubble--dashed" data-g="">C</span>
+                  </div>
+                </div>
+                <div class="mock__cell mock__cell--azul">
+                  <div class="mock__bubbles mock__bubbles--right">
+                    <span class="mock__bubble mock__bubble--az" data-g="">C</span>
+                    <span class="mock__bubble mock__bubble--az" data-g="">A</span>
+                    <span class="mock__bubble mock__bubble--az mock__bubble--dashed" data-g="">B</span>
+                  </div>
+                </div>
+                <div class="mock__cell mock__cell--vermelho">
+                  <div class="mock__bubbles">
+                    <span class="mock__bubble mock__bubble--ve mock__bubble--dashed" data-g="">C</span>
+                  </div>
+                </div>
+                <div class="mock__cell mock__cell--verde">
+                  <span class="mock__cell-label mock__cell-label--end">Alta Vontade</span>
+                  <div class="mock__bubbles mock__bubbles--right">
+                    <span class="mock__bubble mock__bubble--vd" data-g="">F</span>
+                  </div>
+                </div>
+              </div>
+
+              <ul class="mock__legend">
+                <li><span class="mock__legend-dot mock__legend-dot--solid"></span> Feedback dado</li>
+                <li><span class="mock__legend-dot mock__legend-dot--dashed"></span> Aguardando feedback</li>
+                <li><span class="mock__legend-dot mock__legend-dot--g">G</span> Parecer do gestor</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- MOCK 2 + MOCK 3 (grid lado a lado em desktop) ============== -->
+          <div class="mock-grid">
+            <!-- INDICADOR -->
+            <article class="mock">
+              <header class="mock__chrome">
+                <span class="mock__dots"><i></i><i></i><i></i></span>
+                <span class="mock__url">visiometrics.app / visualizacao</span>
+              </header>
+              <div class="mock__body mock__body--ind">
+                <div class="mock__ind-head">
+                  <h4>Qualidade da colheita</h4>
+                  <p>Meta 3,0 · Escala 0–12 · Unidade V</p>
+                </div>
+
+                <svg viewBox="0 0 400 180" class="mock__chart" role="img" aria-label="Gráfico de qualidade da colheita ao longo do tempo">
+                  <!-- grid -->
+                  <g stroke="#eef0f4" stroke-width="1">
+                    <line x1="40" y1="20" x2="380" y2="20"/>
+                    <line x1="40" y1="60" x2="380" y2="60"/>
+                    <line x1="40" y1="100" x2="380" y2="100"/>
+                    <line x1="40" y1="140" x2="380" y2="140"/>
+                  </g>
+                  <!-- linha meta -->
+                  <path d="M 50 115 Q 100 95 150 100 Q 210 110 270 60 Q 320 30 370 50"
+                        fill="none" stroke="#a855f7" stroke-width="2" stroke-dasharray="6 5"/>
+                  <!-- barras azul (Meta OK) -->
+                  <rect x="55"  y="32"  width="36" height="108" rx="3" fill="#3b82f6"/>
+                  <rect x="105" y="40"  width="36" height="100" rx="3" fill="#3b82f6"/>
+                  <!-- barra vermelha (Fora da Meta) -->
+                  <rect x="155" y="115" width="36" height="25"  rx="3" fill="#ef4444"/>
+                  <!-- cinza (sem dados / parcial) -->
+                  <rect x="205" y="120" width="36" height="20"  rx="3" fill="#d4d4d8"/>
+                  <!-- mais azul -->
+                  <rect x="255" y="18"  width="36" height="122" rx="3" fill="#3b82f6"/>
+                  <rect x="305" y="76"  width="36" height="64"  rx="3" fill="#3b82f6"/>
+                  <!-- valores em cima -->
+                  <g font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="9" fill="#0b0b0e" font-weight="700">
+                    <text x="73"  y="28">8,4</text>
+                    <text x="123" y="36">8,0</text>
+                    <text x="173" y="111">0,3</text>
+                    <text x="223" y="116">1,0</text>
+                    <text x="273" y="14">9,3</text>
+                    <text x="323" y="72">3,1</text>
+                  </g>
+                  <!-- eixo X -->
+                  <g font-family="Inter, sans-serif" font-size="8" fill="#9c9ca5">
+                    <text x="64" y="160">01/07</text>
+                    <text x="114" y="160">06/07</text>
+                    <text x="164" y="160">07/07</text>
+                    <text x="214" y="160">08/07</text>
+                    <text x="264" y="160">13/07</text>
+                    <text x="314" y="160">16/10</text>
+                  </g>
+                  <!-- eixo Y -->
+                  <g font-family="Inter, sans-serif" font-size="8" fill="#9c9ca5">
+                    <text x="20" y="24">12</text>
+                    <text x="24" y="64">9</text>
+                    <text x="24" y="104">6</text>
+                    <text x="24" y="144">3</text>
+                  </g>
+                </svg>
+
+                <ul class="mock__chart-legend">
+                  <li><span class="dot dot--blue"></span> Meta OK</li>
+                  <li><span class="dot dot--red"></span> Fora da Meta</li>
+                  <li><span class="dot dot--gray"></span> Parcial</li>
+                  <li><span class="dot dot--meta"></span> Meta</li>
+                </ul>
+              </div>
+            </article>
+
+            <!-- MEUS MÓDULOS -->
+            <article class="mock">
+              <header class="mock__chrome">
+                <span class="mock__dots"><i></i><i></i><i></i></span>
+                <span class="mock__url">visiometrics.app / sistema / modulos</span>
+              </header>
+              <div class="mock__body mock__body--mod">
+                <div class="mock__mod-head">
+                  <h4>Meus Módulos</h4>
+                  <p>Catálogo comercial · 10 disponíveis</p>
+                </div>
+                <div class="mock__mod-grid">
+                  <div class="mock__mod mock__mod--active">
+                    <div class="mock__mod-icon mock__mod-icon--core">▮</div>
+                    <div>
+                      <strong>Núcleo</strong>
+                      <small>Incluído</small>
+                    </div>
+                    <span class="mock__mod-badge mock__mod-badge--active">Ativo</span>
+                  </div>
+                  <div class="mock__mod mock__mod--active">
+                    <div class="mock__mod-icon mock__mod-icon--pkg">◆</div>
+                    <div>
+                      <strong>5S</strong>
+                      <small>Pacote</small>
+                    </div>
+                    <span class="mock__mod-badge mock__mod-badge--active">Ativo</span>
+                  </div>
+                  <div class="mock__mod mock__mod--active">
+                    <div class="mock__mod-icon mock__mod-icon--pkg">◆</div>
+                    <div>
+                      <strong>Matriz</strong>
+                      <small>Pacote</small>
+                    </div>
+                    <span class="mock__mod-badge mock__mod-badge--active">Ativo</span>
+                  </div>
+                  <div class="mock__mod">
+                    <div class="mock__mod-icon mock__mod-icon--addon">◇</div>
+                    <div>
+                      <strong>IA</strong>
+                      <small>Add-on</small>
+                    </div>
+                    <span class="mock__mod-badge">Solicitar</span>
+                  </div>
+                </div>
+              </div>
             </article>
           </div>
         </div>
