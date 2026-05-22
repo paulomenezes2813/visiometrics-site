@@ -1,12 +1,12 @@
 {
   "meta": {
-    "product": "Visiometrics",
+    "product": "Visione",
     "tagline": "Sistema operacional de maturidade organizacional",
     "philosophy_anchor": "Resultados sustentáveis nascem da evolução simultânea da operação, da liderança e da cultura.",
     "version": "1.0",
     "last_updated": "2026-05-21",
     "contact": {
-      "email": "comercial@visiometrics.com.br",
+      "email": "comercial@visione.com.br",
       "tone": "consultivo, sem jargão de vendas, focado em maturidade organizacional"
     }
   },
@@ -24,30 +24,30 @@
     {
       "id": "o-que-e",
       "category": "Visão geral",
-      "keywords": ["o que é", "o que e", "que é", "que e", "definição", "definicao", "visiometrics", "produto", "plataforma", "explique", "sobre"],
-      "question": "O que é o Visiometrics?",
-      "answer": "O Visiometrics é um sistema operacional de maturidade organizacional. Ele conecta operação, liderança, cultura e desenvolvimento humano em um único ciclo contínuo de evolução. Não é um ERP nem um dashboard isolado — é a inteligência integrada sobre a maturidade da sua operação e das suas pessoas."
+      "keywords": ["o que é", "o que e", "que é", "que e", "definição", "definicao", "visione", "produto", "plataforma", "explique", "sobre"],
+      "question": "O que é o Visione?",
+      "answer": "O Visione é um sistema operacional de maturidade organizacional. Ele conecta operação, liderança, cultura e desenvolvimento humano em um único ciclo contínuo de evolução. Não é um ERP nem um dashboard isolado — é a inteligência integrada sobre a maturidade da sua operação e das suas pessoas."
     },
     {
       "id": "filosofia",
       "category": "Filosofia",
       "keywords": ["filosofia", "premissa", "ideia", "conceito", "missão", "missao", "porque", "por que", "diferença", "diferenca"],
-      "question": "Qual é a filosofia por trás do Visiometrics?",
+      "question": "Qual é a filosofia por trás do Visione?",
       "answer": "A premissa é: 'Resultados sustentáveis nascem da evolução simultânea da operação, da liderança e da cultura'. Uma empresa não melhora apenas porque mede KPI. Ela melhora quando as pessoas entendem o processo, os líderes desenvolvem pessoas, os comportamentos corretos são reforçados, os desvios são tratados rapidamente e existe consciência coletiva da qualidade."
     },
     {
       "id": "para-quem",
       "category": "Visão geral",
       "keywords": ["para quem", "público", "publico", "target", "indústria", "industria", "empresa", "tipo de empresa", "perfil"],
-      "question": "Para quem é o Visiometrics?",
+      "question": "Para quem é o Visione?",
       "answer": "Empresas com áreas operacionais que precisam estruturar avaliação contínua de equipes e gestores, programas de qualidade (5S, auditorias), desenvolvimento de líderes e cultura. Casos típicos: indústrias, agronegócio, logística, cooperativas e operações com múltiplas unidades."
     },
     {
       "id": "problema",
       "category": "Problema",
       "keywords": ["problema", "dor", "dores", "resolve", "soluciona", "apagando incêndio", "incendio", "intuitivo", "achismo"],
-      "question": "Que problemas o Visiometrics resolve?",
-      "answer": "Empresas operam apagando incêndios — decisões intuitivas, liderança inconsistente, cultura informal, treinamento desconectado, indicadores isolados e auditorias que não geram transformação. O Visiometrics integra tudo isso em uma única inteligência de maturidade, ligando comportamento → execução → resultado → cultura."
+      "question": "Que problemas o Visione resolve?",
+      "answer": "Empresas operam apagando incêndios — decisões intuitivas, liderança inconsistente, cultura informal, treinamento desconectado, indicadores isolados e auditorias que não geram transformação. O Visione integra tudo isso em uma única inteligência de maturidade, ligando comportamento → execução → resultado → cultura."
     },
     {
       "id": "cinco-dimensoes",
@@ -68,7 +68,7 @@
       "category": "Módulo: 5S",
       "keywords": ["5s", "cinco s", "senso", "organização", "organizacao", "ambientes", "checklists", "auditoria 5s"],
       "question": "Como funciona o módulo 5S?",
-      "answer": "O 5S do Visiometrics traz ambientes, checklists configuráveis, auditorias, biblioteca de melhores práticas, histograma e ranking. Não é um evento isolado de qualidade — é um ciclo contínuo que conversa com treinamento, maturidade e PDI. A premissa: organização física e organização mental estão conectadas."
+      "answer": "O 5S do Visione traz ambientes, checklists configuráveis, auditorias, biblioteca de melhores práticas, histograma e ranking. Não é um evento isolado de qualidade — é um ciclo contínuo que conversa com treinamento, maturidade e PDI. A premissa: organização física e organização mental estão conectadas."
     },
     {
       "id": "matriz-maturidade",
@@ -144,28 +144,28 @@
       "id": "preco",
       "category": "Comercial",
       "keywords": ["preço", "preco", "valor", "custo", "quanto custa", "investimento", "mensalidade", "contrato", "comprar", "contratar"],
-      "question": "Quanto custa o Visiometrics?",
-      "answer": "O modelo é modular: cada pacote tem precificação própria. O ideal é uma conversa rápida com o comercial para entender quais módulos fazem sentido pra sua operação hoje e quais entram conforme você amadurece. Posso te conectar pelo e-mail comercial@visiometrics.com.br."
+      "question": "Quanto custa o Visione?",
+      "answer": "O modelo é modular: cada pacote tem precificação própria. O ideal é uma conversa rápida com o comercial para entender quais módulos fazem sentido pra sua operação hoje e quais entram conforme você amadurece. Posso te conectar pelo e-mail comercial@visione.com.br."
     },
     {
       "id": "diferenca-erp",
       "category": "Comparações",
       "keywords": ["erp", "diferença", "diferenca", "dashboard", "concorrente", "vs", "comparar", "rh", "sistema de rh"],
       "question": "Qual a diferença para um ERP ou um sistema de RH?",
-      "answer": "ERP cuida da operação financeira e fluxo de transações. Sistemas de RH cuidam de folha, ponto e desempenho administrativo. O Visiometrics cuida de algo que nenhum dos dois faz: medir e desenvolver a maturidade da operação, das pessoas, da liderança e da cultura como um sistema único. Eles convivem, não competem."
+      "answer": "ERP cuida da operação financeira e fluxo de transações. Sistemas de RH cuidam de folha, ponto e desempenho administrativo. O Visione cuida de algo que nenhum dos dois faz: medir e desenvolver a maturidade da operação, das pessoas, da liderança e da cultura como um sistema único. Eles convivem, não competem."
     },
     {
       "id": "papel-do-lider",
       "category": "Conceito",
       "keywords": ["líder", "líderes", "lider", "papel", "chefe", "gerente", "gestor", "função do líder", "papel do líder"],
-      "question": "Qual o papel do líder no Visiometrics?",
+      "question": "Qual o papel do líder no Visione?",
       "answer": "O sistema enxerga o líder como agente formador de maturidade — não como 'chefe que cobra'. Isso aparece em feedbacks contínuos, avaliação em cascata, PDIs, benchmarking entre unidades e auditoria gerencial. O líder vira mentor, avaliador, desenvolvedor e mantenedor da cultura."
     },
     {
       "id": "cultura",
       "category": "Conceito",
       "keywords": ["cultura", "comportamento", "hábito", "habito", "disciplina", "valores"],
-      "question": "Como o Visiometrics trata cultura organizacional?",
+      "question": "Como o Visione trata cultura organizacional?",
       "answer": "A cultura para de ser 'informal' e passa a ser medida, reforçada e acompanhada. Comportamentos esperados aparecem em checklists, auditorias, feedbacks de pares e gestores. Quando os comportamentos certos ganham visibilidade, a cultura se fortalece — sem palestras motivacionais."
     },
     {
@@ -180,14 +180,14 @@
       "category": "Comparações",
       "keywords": ["lean", "kaizen", "toyota", "gemba", "gestão visual", "gestao visual", "melhoria contínua", "melhoria continua"],
       "question": "Tem relação com Lean / Kaizen?",
-      "answer": "Sim. O Visiometrics reinterpreta princípios de Kaizen, Lean Manufacturing, Toyota Way, Gemba e gestão visual em uma plataforma digital orientada por dados e comportamento. Mantém o espírito (melhoria contínua, respeito pelas pessoas, padrões visuais) e adiciona o que essas filosofias não tinham: uma camada de inteligência transversal."
+      "answer": "Sim. O Visione reinterpreta princípios de Kaizen, Lean Manufacturing, Toyota Way, Gemba e gestão visual em uma plataforma digital orientada por dados e comportamento. Mantém o espírito (melhoria contínua, respeito pelas pessoas, padrões visuais) e adiciona o que essas filosofias não tinham: uma camada de inteligência transversal."
     },
     {
       "id": "demo",
       "category": "Comercial",
       "keywords": ["demo", "demonstração", "demonstracao", "ver na prática", "ver na pratica", "agendar", "teste", "trial", "experimentar"],
       "question": "Posso ver uma demonstração?",
-      "answer": "Sim — agendar uma demo de 30 minutos é o caminho mais rápido para entender se faz sentido pra sua operação. Me avisa que eu te conecto com o time pelo e-mail comercial@visiometrics.com.br."
+      "answer": "Sim — agendar uma demo de 30 minutos é o caminho mais rápido para entender se faz sentido pra sua operação. Me avisa que eu te conecto com o time pelo e-mail comercial@visione.com.br."
     },
     {
       "id": "implantacao-tempo",
@@ -199,12 +199,12 @@
   ],
 
   "fallback": {
-    "no_match": "Não encontrei essa resposta na minha base. Posso te conectar com nosso time pelo e-mail comercial@visiometrics.com.br — eles respondem dúvidas mais específicas.",
-    "greeting": "Olá! Sou o assistente do Visiometrics. Posso responder sobre a filosofia, os módulos, a forma de implementação ou aspectos comerciais. Pergunte à vontade ou escolha um dos atalhos abaixo."
+    "no_match": "Não encontrei essa resposta na minha base. Posso te conectar com nosso time pelo e-mail comercial@visione.com.br — eles respondem dúvidas mais específicas.",
+    "greeting": "Olá! Sou o assistente do Visione. Posso responder sobre a filosofia, os módulos, a forma de implementação ou aspectos comerciais. Pergunte à vontade ou escolha um dos atalhos abaixo."
   },
 
   "suggested_questions": [
-    "O que é o Visiometrics?",
+    "O que é o Visione?",
     "Quais módulos existem?",
     "Por onde começo a implementar?",
     "Quanto custa?",

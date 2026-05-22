@@ -1,4 +1,4 @@
-// Visiometrics — interações leves (sem dependências)
+// Visione — interações leves (sem dependências)
 (function () {
   // Ano atual no footer
   const yearEl = document.getElementById('year');

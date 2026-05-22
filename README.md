@@ -1,6 +1,6 @@
-# Visiometrics — Site institucional
+# Visione — Site institucional
 
-Landing page estática do **Visiometrics**, um sistema operacional de
+Landing page estática do **Visione**, um sistema operacional de
 maturidade organizacional. O site apresenta a filosofia do produto,
 as 5 dimensões observadas, o catálogo de módulos e inclui um chat de
 ajuda no canto da tela, alimentado por uma base de conhecimento local.
@@ -76,4 +76,4 @@ npx netlify deploy --dir . --prod
 
 ## Filosofia em uma frase
 
-> *“O Visiometrics transforma gestão em consciência organizacional.”*
+> *“O Visione transforma gestão em consciência organizacional.”*

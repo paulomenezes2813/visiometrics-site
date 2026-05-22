@@ -1,5 +1,5 @@
 // ============================================================
-// Visiometrics — Chat widget
+// Visione — Chat widget
 // Lê knowledge-base.json e responde via match por keywords.
 // Sem dependências externas.
 // ============================================================
@@ -199,12 +199,12 @@
     windowEl.className = 'vm-chat-window';
     windowEl.dataset.open = 'false';
     windowEl.setAttribute('role', 'dialog');
-    windowEl.setAttribute('aria-label', 'Assistente Visiometrics');
+    windowEl.setAttribute('aria-label', 'Assistente Visione');
     windowEl.innerHTML = `
       <header class="vm-chat-header">
         <div class="vm-chat-header__avatar">V</div>
         <div class="vm-chat-header__title">
-          <span class="vm-chat-header__name">Assistente Visiometrics</span>
+          <span class="vm-chat-header__name">Assistente Visione</span>
           <span class="vm-chat-header__status">online</span>
         </div>
         <button class="vm-chat-header__close" type="button" aria-label="Fechar chat">
@@ -222,7 +222,7 @@
             class="vm-chat-input__field"
             id="vm-input"
             rows="1"
-            placeholder="Pergunte sobre o Visiometrics…"
+            placeholder="Pergunte sobre o Visione…"
             autocomplete="off"
           ></textarea>
           <button class="vm-chat-input__send" id="vm-send" type="button" aria-label="Enviar pergunta" disabled>
@@ -235,7 +235,7 @@
       </div>
       <div class="vm-chat-footer">
         Respostas baseadas no nosso material. Dúvidas mais específicas →
-        <a href="mailto:comercial@visiometrics.com.br">falar com o comercial</a>.
+        <a href="mailto:comercial@visione.com.br">falar com o comercial</a>.
       </div>
     `;
 
