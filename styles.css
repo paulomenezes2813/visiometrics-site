@@ -398,7 +398,95 @@ h2 em,
 }
 
 .manifesto__head {
-  margin-bottom: clamp(2.5rem, 5vw, 4rem);
+  margin-bottom: clamp(1.4rem, 3vw, 2rem);
+}
+
+/* Teaser — frase curta visível quando o manifesto está fechado */
+.manifesto__teaser {
+  margin-top: 1.2rem;
+  font-size: clamp(1.02rem, 1.8vw, 1.18rem);
+  color: #c4c4cc;
+  max-width: 60ch;
+  line-height: 1.55;
+}
+
+/* Botão toggle (abrir/recolher) */
+.manifesto__toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-top: 1.6rem;
+  background: rgba(96, 165, 250, 0.12);
+  color: #bfdbfe;
+  border: 1px solid rgba(96, 165, 250, 0.35);
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.92rem;
+  letter-spacing: -0.005em;
+  padding: 0.65rem 1.2rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease,
+    color 0.2s ease;
+}
+
+.manifesto__toggle:hover {
+  background: rgba(96, 165, 250, 0.2);
+  border-color: rgba(96, 165, 250, 0.6);
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
+.manifesto__toggle:focus-visible {
+  outline: 2px solid #60a5fa;
+  outline-offset: 3px;
+}
+
+.manifesto__toggle-icon {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+/* Estado aberto: gira o chevron do botão do topo */
+.manifesto[data-open='true'] .manifesto__toggle .manifesto__toggle-icon {
+  transform: rotate(180deg);
+}
+
+/* Botão de recolher (no fim do manifesto) */
+.manifesto__toggle--bottom {
+  display: inline-flex;
+  margin: 2.5rem auto 0;
+}
+
+/* ======= ANIMAÇÃO CORTINA ============================== */
+/* Truque moderno: grid-template-rows transita de 0fr → 1fr,
+   permitindo animar para altura automática sem JS. */
+.manifesto__reveal {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.55s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.manifesto[data-open='true'] .manifesto__reveal {
+  grid-template-rows: 1fr;
+}
+
+.manifesto__inner {
+  overflow: hidden;
+  min-height: 0; /* necessário para o grid 0fr funcionar */
+  opacity: 0;
+  transition: opacity 0.4s ease 0.1s;
+}
+
+.manifesto[data-open='true'] .manifesto__inner {
+  opacity: 1;
+}
+
+/* Quando fechado, mostra um fade na base do header como "ponta de cortina" */
+.manifesto:not([data-open='true']) .manifesto__head {
+  position: relative;
 }
 
 .manifesto__eyebrow {

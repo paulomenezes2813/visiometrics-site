@@ -52,4 +52,44 @@
     );
     sections.forEach((s) => observer.observe(s));
   }
+
+  // Manifesto — abrir/recolher (cortina)
+  const manifesto = document.getElementById('manifesto');
+  if (manifesto) {
+    const toggles = manifesto.querySelectorAll('.manifesto__toggle');
+    const topToggle = manifesto.querySelector(
+      '.manifesto__toggle:not(.manifesto__toggle--bottom)',
+    );
+    const topLabel = topToggle?.querySelector('.manifesto__toggle-label');
+
+    toggles.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const isOpen = manifesto.dataset.open === 'true';
+        const next = !isOpen;
+        manifesto.dataset.open = String(next);
+
+        if (topToggle) {
+          topToggle.setAttribute('aria-expanded', String(next));
+        }
+        if (topLabel) {
+          topLabel.textContent = next
+            ? 'Recolher manifesto'
+            : 'Ler manifesto completo';
+        }
+
+        // Ao recolher pelo botão do final, traz a tela de volta ao topo
+        // do manifesto (senão o usuário "fica perdido" na página).
+        if (!next && btn.classList.contains('manifesto__toggle--bottom')) {
+          manifesto.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+
+    // Se a URL chegar com âncora #manifesto, abre automaticamente
+    if (window.location.hash === '#manifesto') {
+      manifesto.dataset.open = 'true';
+      if (topToggle) topToggle.setAttribute('aria-expanded', 'true');
+      if (topLabel) topLabel.textContent = 'Recolher manifesto';
+    }
+  }
 })();

@@ -135,16 +135,33 @@
       </section>
 
       <!-- MANIFESTO ======================================================= -->
-      <section id="manifesto" class="manifesto">
+      <section id="manifesto" class="manifesto" data-open="false">
         <div class="container manifesto__container">
           <header class="manifesto__head">
             <span class="manifesto__eyebrow">Manifesto Visione</span>
             <h2 class="manifesto__title">
               O nascimento da <em>consciência organizacional</em>.
             </h2>
+            <p class="manifesto__teaser">
+              Sobre como empresas deixam de ser estruturas inanimadas e passam a
+              funcionar como sistemas vivos — capazes de perceberem a si mesmas.
+            </p>
+            <button
+              class="manifesto__toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="manifesto-content"
+            >
+              <span class="manifesto__toggle-label">Ler manifesto completo</span>
+              <svg class="manifesto__toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9"/>
+              </svg>
+            </button>
           </header>
 
-          <div class="manifesto__body">
+          <div class="manifesto__reveal" id="manifesto-content">
+           <div class="manifesto__inner">
+            <div class="manifesto__body">
             <p class="manifesto__lead">
               Durante décadas, empresas foram administradas como máquinas.
             </p>
@@ -307,6 +324,19 @@
               O futuro da gestão não será apenas automatizado.<br />
               <em>Ele será consciente.</em>
             </p>
+            </div>
+
+            <button
+              class="manifesto__toggle manifesto__toggle--bottom"
+              type="button"
+              aria-label="Recolher manifesto"
+            >
+              <svg class="manifesto__toggle-icon manifesto__toggle-icon--up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="18 15 12 9 6 15"/>
+              </svg>
+              <span>Recolher manifesto</span>
+            </button>
+           </div>
           </div>
         </div>
       </section>
