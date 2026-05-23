@@ -53,43 +53,38 @@
     sections.forEach((s) => observer.observe(s));
   }
 
-  // Manifesto — abrir/recolher (cortina)
-  const manifesto = document.getElementById('manifesto');
-  if (manifesto) {
-    const toggles = manifesto.querySelectorAll('.manifesto__toggle');
-    const topToggle = manifesto.querySelector(
+  // Cortinas — qualquer seção .manifesto[data-open] com toggles internos
+  document.querySelectorAll('.manifesto[data-open]').forEach((section) => {
+    const toggles = section.querySelectorAll('.manifesto__toggle');
+    const topToggle = section.querySelector(
       '.manifesto__toggle:not(.manifesto__toggle--bottom)',
     );
     const topLabel = topToggle?.querySelector('.manifesto__toggle-label');
 
+    const openLabel = section.dataset.openLabel || 'Recolher';
+    const closedLabel = section.dataset.closedLabel || 'Ler completo';
+
     toggles.forEach((btn) => {
       btn.addEventListener('click', () => {
-        const isOpen = manifesto.dataset.open === 'true';
+        const isOpen = section.dataset.open === 'true';
         const next = !isOpen;
-        manifesto.dataset.open = String(next);
+        section.dataset.open = String(next);
 
-        if (topToggle) {
-          topToggle.setAttribute('aria-expanded', String(next));
-        }
-        if (topLabel) {
-          topLabel.textContent = next
-            ? 'Recolher manifesto'
-            : 'Ler manifesto completo';
-        }
+        if (topToggle) topToggle.setAttribute('aria-expanded', String(next));
+        if (topLabel) topLabel.textContent = next ? openLabel : closedLabel;
 
-        // Ao recolher pelo botão do final, traz a tela de volta ao topo
-        // do manifesto (senão o usuário "fica perdido" na página).
+        // Ao recolher pelo botão do final, volta ao topo da seção
         if (!next && btn.classList.contains('manifesto__toggle--bottom')) {
-          manifesto.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          section.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
       });
     });
 
-    // Se a URL chegar com âncora #manifesto, abre automaticamente
-    if (window.location.hash === '#manifesto') {
-      manifesto.dataset.open = 'true';
+    // Se a URL chegar com âncora dessa seção, abre automaticamente
+    if (section.id && window.location.hash === '#' + section.id) {
+      section.dataset.open = 'true';
       if (topToggle) topToggle.setAttribute('aria-expanded', 'true');
-      if (topLabel) topLabel.textContent = 'Recolher manifesto';
+      if (topLabel) topLabel.textContent = openLabel;
     }
-  }
+  });
 })();

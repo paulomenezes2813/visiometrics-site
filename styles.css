@@ -733,272 +733,322 @@ h2 em,
   font-weight: 600;
 }
 
-/* ====== MODELANDO A CONSCIÊNCIA ========================== */
-.cognitive {
-  counter-reset: cognitive;
+/* ====== MODELANDO A CONSCIÊNCIA ==========================
+   Usa o componente .manifesto (mesma cortina). O modifier
+   .manifesto--modelo dá um leve desvio cromático (mais
+   violeta) para diferenciar visualmente sem destoar.
+   ============================================================ */
+.manifesto--modelo {
+  background:
+    radial-gradient(
+      900px circle at 20% 0%,
+      rgba(139, 92, 246, 0.18) 0%,
+      transparent 55%
+    ),
+    radial-gradient(
+      700px circle at 100% 100%,
+      rgba(96, 165, 250, 0.12) 0%,
+      transparent 55%
+    ),
+    #0a0a10;
+}
+
+.manifesto--modelo .manifesto__eyebrow {
+  color: #c4b5fd;
+  border-color: rgba(167, 139, 250, 0.35);
+  background: rgba(167, 139, 250, 0.08);
+}
+
+.manifesto--modelo .manifesto__title em,
+.manifesto--modelo .manifesto__body em,
+.manifesto--modelo .manifesto__word,
+.manifesto--modelo .manifesto__quote em,
+.manifesto--modelo .manifesto__closing em {
+  color: #c4b5fd !important;
+}
+
+.manifesto--modelo .manifesto__quote {
+  border-left-color: #a78bfa;
+  background: linear-gradient(
+    90deg,
+    rgba(167, 139, 250, 0.12) 0%,
+    transparent 100%
+  );
+}
+
+.manifesto--modelo .manifesto__stack--block li {
+  border-left-color: rgba(167, 139, 250, 0.5);
+}
+
+.manifesto--modelo .manifesto__roles li {
+  background: rgba(167, 139, 250, 0.1);
+  border-color: rgba(167, 139, 250, 0.3);
+  color: #ddd6fe;
+}
+
+.manifesto--modelo .manifesto__toggle {
+  background: rgba(167, 139, 250, 0.12);
+  color: #ddd6fe;
+  border-color: rgba(167, 139, 250, 0.35);
+}
+
+.manifesto--modelo .manifesto__toggle:hover {
+  background: rgba(167, 139, 250, 0.22);
+  border-color: rgba(167, 139, 250, 0.6);
+  color: #ffffff;
+}
+
+.manifesto--modelo .manifesto__toggle:focus-visible {
+  outline-color: #a78bfa;
+}
+
+/* --- Fluxo cognitivo (9 etapas) embutido no manifesto -------- */
+.modelo__flow {
+  list-style: none;
+  margin: 0.5rem 0;
+  padding: 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 0.9rem;
-  margin: 0 0 4rem;
-  position: relative;
+  gap: 0.75rem;
+  counter-reset: flow;
 }
 
 @media (max-width: 900px) {
-  .cognitive {
+  .modelo__flow {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 560px) {
-  .cognitive {
+  .modelo__flow {
     grid-template-columns: 1fr;
   }
 }
 
-.cognitive__step {
-  background: #fff;
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  padding: 1.3rem 1.3rem 1.2rem;
+.modelo__step {
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 1rem 1.1rem 0.95rem;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.4rem;
   position: relative;
-  transition: border-color 0.2s ease, transform 0.2s ease,
-    box-shadow 0.2s ease;
-  overflow: hidden;
+  transition: background 0.2s ease, border-color 0.2s ease,
+    transform 0.2s ease;
 }
 
-.cognitive__step::before {
+.modelo__step::before {
   content: '';
   position: absolute;
   top: 0;
   left: 0;
   width: 3px;
   height: 100%;
-  background: linear-gradient(180deg, var(--accent) 0%, transparent 100%);
-  opacity: 0.55;
+  background: linear-gradient(180deg, #a78bfa 0%, transparent 100%);
+  border-radius: 12px 0 0 12px;
+  opacity: 0.5;
   transition: opacity 0.2s ease;
 }
 
-.cognitive__step:hover {
-  border-color: var(--ink);
+.modelo__step:hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(167, 139, 250, 0.35);
   transform: translateY(-2px);
-  box-shadow: var(--shadow-md);
 }
 
-.cognitive__step:hover::before {
+.modelo__step:hover::before {
   opacity: 1;
 }
 
-.cognitive__num {
+.modelo__num {
   font-family: var(--font-display);
-  font-size: 0.75rem;
-  letter-spacing: 0.14em;
-  color: var(--accent);
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  color: #c4b5fd;
   font-weight: 700;
 }
 
-.cognitive__step strong {
+.modelo__step strong {
   font-family: var(--font-display);
-  font-size: 1.12rem;
+  font-size: 1.05rem;
   letter-spacing: -0.015em;
-  color: var(--ink);
+  color: #ffffff;
   font-weight: 700;
 }
 
-.cognitive__step p {
-  font-size: 0.92rem;
-  color: var(--muted);
+.modelo__step span:last-child {
+  font-size: 0.9rem;
+  color: #c4c4cc;
   line-height: 1.55;
 }
 
-.cognitive__step--peak {
-  background: linear-gradient(180deg, var(--accent-soft) 0%, #fff 100%);
-  border-color: rgba(37, 99, 235, 0.35);
+.modelo__step--peak {
+  background: linear-gradient(
+    180deg,
+    rgba(167, 139, 250, 0.18) 0%,
+    rgba(167, 139, 250, 0.04) 100%
+  );
+  border-color: rgba(167, 139, 250, 0.45);
 }
 
-.cognitive__step--peak::before {
+.modelo__step--peak::before {
   opacity: 1;
-  background: var(--accent);
+  background: #a78bfa;
 }
 
-.cognitive__step--peak strong {
-  color: var(--accent);
+.modelo__step--peak strong {
+  color: #ddd6fe;
 }
 
-/* Blocos auxiliares (primitivas e fundamentos) */
-.cognitive-block {
-  margin-top: 3.5rem;
-}
-
-.cognitive-block__head {
-  max-width: 640px;
-  margin-bottom: 1.6rem;
-}
-
-.cognitive-block__head h3 {
-  font-size: clamp(1.25rem, 2.2vw, 1.55rem);
-  letter-spacing: -0.02em;
-  margin-bottom: 0.6rem;
-}
-
-.cognitive-block__head p {
-  color: var(--muted);
-  font-size: 1rem;
-}
-
-/* Primitivas */
-.primitives {
+/* --- Primitivas --------------------------------------------- */
+.modelo__primitives {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 0.9rem;
+  gap: 0.75rem;
+  margin: 0.5rem 0;
 }
 
 @media (max-width: 900px) {
-  .primitives {
+  .modelo__primitives {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 560px) {
-  .primitives {
+  .modelo__primitives {
     grid-template-columns: 1fr;
   }
 }
 
-.primitive {
-  background: var(--bg-soft);
-  border: 1px solid var(--line);
-  border-radius: var(--radius-sm);
-  padding: 1.1rem 1.2rem;
+.modelo__primitive {
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 1rem 1.1rem;
   display: flex;
   flex-direction: column;
   gap: 0.55rem;
+  transition: background 0.2s ease, border-color 0.2s ease;
 }
 
-.primitive--wide {
+.modelo__primitive:hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(167, 139, 250, 0.3);
+}
+
+.modelo__primitive--wide {
   grid-column: span 3;
-  background: var(--ink);
-  color: #e7e7ec;
-  border-color: var(--ink);
+  background: linear-gradient(
+    90deg,
+    rgba(167, 139, 250, 0.18) 0%,
+    rgba(96, 165, 250, 0.12) 100%
+  );
+  border-color: rgba(167, 139, 250, 0.4);
 }
 
 @media (max-width: 900px) {
-  .primitive--wide {
+  .modelo__primitive--wide {
     grid-column: span 2;
   }
 }
 
 @media (max-width: 560px) {
-  .primitive--wide {
+  .modelo__primitive--wide {
     grid-column: span 1;
   }
 }
 
-.primitive__tag {
+.modelo__tag {
   display: inline-block;
   width: fit-content;
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: 0.72rem;
-  letter-spacing: 0.18em;
-  color: var(--accent);
-  background: #fff;
-  border: 1px solid var(--line);
-  padding: 0.3rem 0.7rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  color: #c4b5fd;
+  background: rgba(167, 139, 250, 0.1);
+  border: 1px solid rgba(167, 139, 250, 0.3);
+  padding: 0.3rem 0.75rem;
   border-radius: 999px;
 }
 
-.primitive--wide .primitive__tag {
-  background: rgba(96, 165, 250, 0.15);
-  border-color: rgba(96, 165, 250, 0.35);
-  color: #bfdbfe;
-}
-
-.primitive p {
+.modelo__primitive p {
   font-size: 0.92rem;
-  color: var(--ink-2);
-  line-height: 1.55;
-}
-
-.primitive--wide p {
   color: #c4c4cc;
+  line-height: 1.55;
+  margin: 0;
 }
 
-/* Fundamentos científicos */
-.foundations {
+.modelo__primitive--wide .modelo__tag {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(167, 139, 250, 0.5);
+  color: #ffffff;
+}
+
+.modelo__primitive--wide p {
+  color: #e7e7ec;
+}
+
+/* --- Fundamentos científicos -------------------------------- */
+.modelo__foundations {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 0.85rem;
+  gap: 0.7rem;
+  margin: 0.5rem 0;
 }
 
 @media (max-width: 1000px) {
-  .foundations {
+  .modelo__foundations {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 560px) {
-  .foundations {
+  .modelo__foundations {
     grid-template-columns: 1fr;
   }
 }
 
-.foundation {
-  background: #fff;
-  border: 1px solid var(--line);
-  border-radius: var(--radius-sm);
-  padding: 1.1rem 1.1rem 1rem;
+.modelo__foundation {
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 1rem 1rem 0.9rem;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
-  transition: border-color 0.2s ease, transform 0.2s ease;
+  gap: 0.45rem;
+  transition: background 0.2s ease, border-color 0.2s ease,
+    transform 0.2s ease;
 }
 
-.foundation:hover {
-  border-color: var(--ink);
+.modelo__foundation:hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(167, 139, 250, 0.3);
   transform: translateY(-2px);
 }
 
-.foundation h4 {
-  font-size: 1rem;
+.modelo__foundation h4 {
+  font-size: 0.98rem;
   letter-spacing: -0.015em;
+  color: #ffffff;
 }
 
-.foundation p {
-  font-size: 0.88rem;
-  color: var(--muted);
+.modelo__foundation p {
+  font-size: 0.86rem;
+  color: #c4c4cc;
   line-height: 1.5;
+  margin: 0;
 }
 
-.foundation small {
+.modelo__foundation small {
   font-family: var(--font-display);
-  font-size: 0.72rem;
+  font-size: 0.68rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: #c4b5fd;
   font-weight: 600;
-  margin-top: 0.3rem;
-}
-
-/* Frase de encerramento da seção */
-.cognitive-closing {
-  margin: 3.5rem auto 0;
-  max-width: 720px;
-  text-align: center;
-  font-family: var(--font-display);
-  font-size: clamp(1.1rem, 2.2vw, 1.4rem);
-  font-weight: 500;
-  line-height: 1.45;
-  letter-spacing: -0.015em;
-  color: var(--ink);
-}
-
-.cognitive-closing em {
-  font-style: normal;
-  color: var(--accent);
-  font-weight: 700;
+  margin-top: 0.2rem;
 }
 
 /* ====== DIMENSÕES ======================================== */
