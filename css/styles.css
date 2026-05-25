@@ -30,7 +30,7 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
 }
 
 html,
@@ -2588,4 +2588,146 @@ h2 em,
   height: 2px;
   background: var(--accent);
   border-radius: 2px;
+}
+
+/* ============================================================
+   Ajuste de cores para tema claro do Manifesto e Modelo
+   ============================================================ */
+.section--light-manifesto {
+  background: var(--bg-alt);
+  border-top: 1px solid var(--line-2);
+  border-bottom: 1px solid var(--line-2);
+}
+
+.section--light-manifesto .manifesto__inner {
+  opacity: 1 !important;
+  background: none !important;
+  box-shadow: none !important;
+}
+
+.section--light-manifesto .manifesto__title {
+  color: var(--ink) !important;
+}
+
+.section--light-manifesto .manifesto__eyebrow {
+  color: var(--accent) !important;
+  border-color: rgba(37, 99, 235, 0.2) !important;
+  background: rgba(37, 99, 235, 0.05) !important;
+}
+
+.section--light-manifesto .manifesto__teaser {
+  color: var(--muted) !important;
+}
+
+.section--light-manifesto .manifesto__body {
+  color: var(--ink-2) !important;
+}
+
+.section--light-manifesto .manifesto__body strong {
+  color: var(--ink) !important;
+}
+
+.section--light-manifesto .manifesto__body em {
+  color: var(--accent) !important;
+}
+
+.section--light-manifesto .manifesto__word {
+  color: var(--accent) !important;
+}
+
+.section--light-manifesto .manifesto__statement {
+  color: var(--ink) !important;
+}
+
+.section--light-manifesto .manifesto__stack li {
+  color: var(--ink) !important;
+}
+
+.section--light-manifesto .manifesto__stack--soft li {
+  color: var(--muted) !important;
+}
+
+.section--light-manifesto .manifesto__stack--block li {
+  background: var(--bg-soft) !important;
+  border-left-color: var(--accent) !important;
+  color: var(--ink-2) !important;
+  border: 1px solid var(--line) !important;
+  border-left: 4px solid var(--accent) !important;
+}
+
+.section--light-manifesto .manifesto__roles li {
+  background: var(--accent-soft) !important;
+  border-color: rgba(37, 99, 235, 0.15) !important;
+  color: var(--accent) !important;
+}
+
+.section--light-manifesto .manifesto__quote {
+  color: var(--ink) !important;
+  border-left-color: var(--accent) !important;
+  background: linear-gradient(90deg, var(--accent-soft) 0%, transparent 100%) !important;
+}
+
+.section--light-manifesto .manifesto__quote em {
+  color: var(--accent) !important;
+}
+
+.section--light-manifesto .manifesto__closing {
+  border-top-color: var(--line) !important;
+  color: var(--ink) !important;
+}
+
+/* Estilos específicos da Arquitetura Cognitiva em Tema Claro */
+.section--light-manifesto .modelo__step {
+  background: #fff !important;
+  border: 1px solid var(--line) !important;
+}
+
+.section--light-manifesto .modelo__step strong {
+  color: var(--ink) !important;
+}
+
+.section--light-manifesto .modelo__step span {
+  color: var(--muted) !important;
+}
+
+.section--light-manifesto .modelo__step--peak {
+  background: var(--accent-soft) !important;
+  border-color: var(--accent) !important;
+}
+
+.section--light-manifesto .modelo__step--peak strong {
+  color: var(--accent) !important;
+}
+
+.section--light-manifesto .modelo__primitive {
+  background: #fff !important;
+  border: 1px solid var(--line) !important;
+  color: var(--ink-2) !important;
+}
+
+.section--light-manifesto .modelo__primitive--wide {
+  background: var(--bg-soft) !important;
+}
+
+.section--light-manifesto .modelo__tag {
+  background: var(--accent-soft) !important;
+  color: var(--accent) !important;
+  border: 1px solid rgba(37, 99, 235, 0.15) !important;
+}
+
+.section--light-manifesto .modelo__foundation {
+  background: #fff !important;
+  border: 1px solid var(--line) !important;
+}
+
+.section--light-manifesto .modelo__foundation h4 {
+  color: var(--ink) !important;
+}
+
+.section--light-manifesto .modelo__foundation p {
+  color: var(--ink-2) !important;
+}
+
+.section--light-manifesto .modelo__foundation small {
+  color: var(--muted) !important;
 }

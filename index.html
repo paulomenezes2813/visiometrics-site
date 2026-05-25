@@ -8,14 +8,14 @@
       content="Visione é uma plataforma de inteligência de maturidade organizacional que conecta operação, liderança, cultura e desenvolvimento humano em um ciclo contínuo de evolução empresarial."
     />
     <title>Visione — Sistema operacional de maturidade organizacional</title>
-    <link rel="icon" type="image/png" href="favicon.png" />
-    <link rel="apple-touch-icon" href="favicon.png" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link rel="apple-touch-icon" href="images/favicon.png" />
     <meta property="og:title" content="Visione — Sistema operacional de maturidade organizacional" />
     <meta
       property="og:description"
       content="Plataforma de inteligência de maturidade organizacional que conecta operação, liderança, cultura e desenvolvimento humano em um ciclo contínuo de evolução."
     />
-    <meta property="og:image" content="favicon.png" />
+    <meta property="og:image" content="images/favicon.png" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -24,14 +24,14 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="chat.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/chat.css" />
   </head>
   <body>
     <header class="nav">
       <div class="nav__inner">
         <a href="#top" class="nav__brand">
-          <img class="nav__mark" src="favicon.png" alt="" aria-hidden="true" />
+          <img class="nav__mark" src="images/favicon.png" alt="" aria-hidden="true" />
           <span>Visione</span>
         </a>
         <nav class="nav__links" aria-label="Seções do site">
@@ -135,542 +135,500 @@
         </div>
       </section>
 
-      <!-- MANIFESTO ======================================================= -->
-      <section
-        id="manifesto"
-        class="manifesto"
-        data-open="false"
-        data-open-label="Recolher manifesto"
-        data-closed-label="Ler manifesto completo"
-      >
-        <div class="container manifesto__container">
-          <header class="manifesto__head">
-            <span class="manifesto__eyebrow">Manifesto Visione</span>
-            <h2 class="manifesto__title">
-              O nascimento da <em>consciência organizacional</em>.
-            </h2>
-            <p class="manifesto__teaser">
-              Sobre como empresas deixam de ser estruturas inanimadas e passam a
-              funcionar como sistemas vivos — capazes de perceberem a si mesmas.
-            </p>
-            <button
-              class="manifesto__toggle"
-              type="button"
-              aria-expanded="false"
-              aria-controls="manifesto-content"
-            >
-              <span class="manifesto__toggle-label">Ler manifesto completo</span>
-              <svg class="manifesto__toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <polyline points="6 9 12 15 18 9"/>
-              </svg>
-            </button>
-          </header>
+      <!-- MANIFESTO COMPLETO =============================================== -->
+      <section id="manifesto" class="section section--light-manifesto" style="padding: 5rem 0;">
+        <div class="container" style="max-width: 800px; padding: 0 1.5rem;">
+          <article class="manifesto__inner">
+            <header class="manifesto__head" style="margin-bottom: 3rem;">
+              <span class="manifesto__eyebrow">Manifesto Visione</span>
+              <h2 class="manifesto__title" style="font-size: clamp(2.2rem, 5vw, 3.6rem); line-height: 1.1; margin-top: 0.5rem; margin-bottom: 1rem;">
+                O nascimento da <em>consciência organizacional</em>.
+              </h2>
+              <p class="manifesto__teaser" style="font-size: 1.25rem; opacity: 0.85; margin-top: 1rem;">
+                Sobre como empresas deixam de ser estruturas inanimadas e passam a
+                funcionar como sistemas vivos — capazes de perceberem a si mesmas.
+              </p>
+            </header>
 
-          <div class="manifesto__reveal" id="manifesto-content">
-           <div class="manifesto__inner">
-            <div class="manifesto__body">
-            <p class="manifesto__lead">
-              Durante décadas, empresas foram administradas como máquinas.
-            </p>
+            <div class="manifesto__body" style="font-size: 1.15rem; line-height: 1.7;">
+              <p class="manifesto__lead" style="font-size: 1.4rem; font-weight: 500; margin-bottom: 2rem;">
+                Durante décadas, empresas foram administradas como máquinas.
+              </p>
 
-            <ul class="manifesto__stack">
-              <li>Processos.</li>
-              <li>Indicadores.</li>
-              <li>Metas.</li>
-              <li>Relatórios.</li>
-              <li>Controle.</li>
-            </ul>
+              <ul class="manifesto__stack" style="margin-bottom: 2rem;">
+                <li>Processos.</li>
+                <li>Indicadores.</li>
+                <li>Metas.</li>
+                <li>Relatórios.</li>
+                <li>Controle.</li>
+              </ul>
 
-            <p>
-              A gestão moderna aprendeu a medir praticamente tudo: produção, tempo,
-              custos, performance, resultado.
-            </p>
-            <p>
-              Mas mesmo cercadas por dados, organizações continuam sofrendo dos
-              mesmos problemas:
-            </p>
+              <p>
+                A gestão moderna aprendeu a medir praticamente tudo: produção, tempo,
+                custos, performance, resultado.
+              </p>
+              <p>
+                Mas mesmo cercadas por dados, organizações continuam sofrendo dos
+                mesmos problemas:
+              </p>
 
-            <ul class="manifesto__stack manifesto__stack--soft">
-              <li>decisões incoerentes,</li>
-              <li>culturas frágeis,</li>
-              <li>lideranças inconsistentes,</li>
-              <li>desconexão operacional,</li>
-              <li>perda de identidade,</li>
-              <li>evolução interrompida.</li>
-            </ul>
+              <ul class="manifesto__stack manifesto__stack--soft" style="margin-bottom: 2rem;">
+                <li>decisões incoerentes,</li>
+                <li>culturas frágeis,</li>
+                <li>lideranças inconsistentes,</li>
+                <li>desconexão operacional,</li>
+                <li>perda de identidade,</li>
+                <li>evolução interrompida.</li>
+              </ul>
 
-            <p>
-              Porque existe algo que os sistemas tradicionais nunca conseguiram
-              criar:
-            </p>
+              <p>
+                Porque existe algo que os sistemas tradicionais nunca conseguiram
+                criar:
+              </p>
 
-            <p class="manifesto__word">consciência.</p>
+              <p class="manifesto__word" style="font-size: 3.5rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.1em; margin: 2.5rem 0;">
+                consciência.
+              </p>
 
-            <p>
-              A maioria das plataformas corporativas registra informações.
-              Pouquíssimas conseguem compreender o que essas informações significam
-              para a organização como um todo.
-            </p>
+              <p>
+                A maioria das plataformas corporativas registra informações.
+                Pouquíssimas conseguem compreender o que essas informações significam
+                para a organização como um todo.
+              </p>
 
-            <p class="manifesto__statement">O Visione nasce para mudar isso.</p>
+              <p class="manifesto__statement" style="font-size: 1.3rem; font-weight: 600; margin: 2rem 0;">
+                O Visione nasce para mudar isso.
+              </p>
 
-            <p>
-              O Visione não foi criado apenas para automatizar processos ou gerar
-              dashboards. Ele foi criado para ajudar empresas a
-              <em>perceberem a si mesmas</em>.
-            </p>
+              <p>
+                O Visione não foi criado apenas para automatizar processos ou gerar
+                dashboards. Ele foi criado para ajudar empresas a
+                <em>perceberem a si mesmas</em>.
+              </p>
 
-            <p>
-              Pela primeira vez, uma organização pode desenvolver algo próximo de
-              uma <strong>inteligência institucional contínua</strong>: capaz de
-              compreender sua operação, sua cultura, sua liderança, seus padrões,
-              seus comportamentos, sua maturidade — e os impactos invisíveis das
-              decisões tomadas diariamente.
-            </p>
+              <p>
+                Pela primeira vez, uma organização pode desenvolver algo próximo de
+                uma <strong>inteligência institucional contínua</strong>: capaz de
+                compreender sua operação, sua cultura, sua liderança, seus padrões,
+                seus comportamentos, sua maturidade — e os impactos invisíveis das
+                decisões tomadas diariamente.
+              </p>
 
-            <blockquote class="manifesto__quote">
-              O Visione transforma gestão em <em>consciência organizacional</em>.
-            </blockquote>
+              <blockquote class="manifesto__quote" style="font-style: italic; padding-left: 1.5rem; margin: 2.5rem 0; font-size: 1.3rem; font-weight: 500;">
+                O Visione transforma gestão em <em>consciência organizacional</em>.
+              </blockquote>
 
-            <p>
-              A empresa deixa de operar apenas reagindo a problemas. Ela passa a
-              desenvolver percepção sobre o que fortalece sua identidade, o que
-              ameaça sua cultura, o que acelera sua evolução — e o que silenciosamente
-              degrada sua maturidade.
-            </p>
+              <p>
+                A empresa deixa de operar apenas reagindo a problemas. Ela passa a
+                desenvolver percepção sobre o que fortalece sua identidade, o que
+                ameaça sua cultura, o que acelera sua evolução — e o que silenciosamente
+                degrada sua maturidade.
+              </p>
 
-            <p class="manifesto__statement">
-              Porque nem toda decisão que melhora indicadores fortalece a organização.
-            </p>
+              <p class="manifesto__statement" style="font-size: 1.3rem; font-weight: 600; margin: 2rem 0;">
+                Porque nem toda decisão que melhora indicadores fortalece a organização.
+              </p>
 
-            <ul class="manifesto__stack manifesto__stack--block">
-              <li>Existem decisões que aumentam lucro enquanto corroem cultura.</li>
-              <li>Existem decisões que aceleram crescimento enquanto destroem sustentabilidade.</li>
-              <li>Existem resultados que escondem fragilidade humana, operacional e estratégica.</li>
-            </ul>
+              <ul class="manifesto__stack manifesto__stack--block" style="margin-bottom: 2rem;">
+                <li>Existem decisões que aumentam lucro enquanto corroem cultura.</li>
+                <li>Existem decisões que aceleram crescimento enquanto destroem sustentabilidade.</li>
+                <li>Existem resultados que escondem fragilidade humana, operacional e estratégica.</li>
+              </ul>
 
-            <p>
-              <strong>O Visione existe para tornar isso visível.</strong>
-            </p>
+              <p>
+                <strong>O Visione existe para tornar isso visível.</strong>
+              </p>
 
-            <p>
-              Sua inteligência artificial não atua como um simples assistente
-              genérico. Ela compreende o contexto onde está inserida. Entende:
-            </p>
+              <p>
+                Sua inteligência artificial não atua como um simples assistente
+                genérico. Ela compreende o contexto onde está inserida. Entende:
+              </p>
 
-            <ul class="manifesto__stack manifesto__stack--soft">
-              <li>a empresa,</li>
-              <li>sua história,</li>
-              <li>sua operação,</li>
-              <li>seus valores,</li>
-              <li>seus padrões,</li>
-              <li>sua metodologia,</li>
-              <li>seus comportamentos,</li>
-              <li>sua cultura,</li>
-              <li>e seus objetivos de longo prazo.</li>
-            </ul>
+              <ul class="manifesto__stack manifesto__stack--soft" style="margin-bottom: 2rem;">
+                <li>a empresa,</li>
+                <li>sua história,</li>
+                <li>sua operação,</li>
+                <li>seus valores,</li>
+                <li>seus padrões,</li>
+                <li>sua metodologia,</li>
+                <li>seus comportamentos,</li>
+                <li>sua cultura,</li>
+                <li>e seus objetivos de longo prazo.</li>
+              </ul>
 
-            <p>
-              Isso permite que a tecnologia deixe de ser apenas operacional e
-              passe a atuar como:
-            </p>
+              <p>
+                Suas funções permitem que a tecnologia deixe de ser apenas operacional e
+                passe a atuar como:
+              </p>
 
-            <ul class="manifesto__roles">
-              <li>memória organizacional</li>
-              <li>camada cognitiva</li>
-              <li>sistema imunológico cultural</li>
-              <li>inteligência estratégica</li>
-              <li>consciência adicional para executivos</li>
-            </ul>
+              <ul class="manifesto__roles" style="margin-bottom: 2.5rem;">
+                <li>memória organizacional</li>
+                <li>camada cognitiva</li>
+                <li>sistema imunológico cultural</li>
+                <li>inteligência estratégica</li>
+                <li>consciência adicional para executivos</li>
+              </ul>
 
-            <p class="manifesto__statement">
-              O Visione cria algo raro: uma organização capaz de aprender
-              continuamente sobre si mesma.
-            </p>
+              <p class="manifesto__statement" style="font-size: 1.3rem; font-weight: 600; margin: 2rem 0;">
+                O Visione cria algo raro: uma organização capaz de aprender
+                continuamente sobre si mesma.
+              </p>
 
-            <p>
-              A empresa deixa de depender exclusivamente da memória de líderes,
-              da percepção individual ou da experiência isolada de pessoas
-              específicas.
-            </p>
+              <p>
+                A empresa deixa de depender exclusivamente da memória de líderes,
+                da percepção individual ou da experiência isolada de pessoas
+                específicas.
+              </p>
 
-            <p class="manifesto__statement manifesto__statement--em">
-              A maturidade deixa de estar "na cabeça de alguém". Ela passa a
-              existir como sistema.
-            </p>
+              <p class="manifesto__statement manifesto__statement--em" style="font-style: italic; font-weight: 600; margin: 2rem 0;">
+                A maturidade deixa de estar "na cabeça de alguém". Ela passa a
+                existir como sistema.
+              </p>
 
-            <p>
-              Porque organizações verdadeiramente evoluídas não dependem apenas
-              de controle.
-            </p>
+              <p>
+                Porque organizações verdadeiramente evoluídas não dependem apenas
+                de controle.
+              </p>
 
-            <p class="manifesto__statement">Dependem de consciência.</p>
+              <p class="manifesto__statement" style="font-size: 1.3rem; font-weight: 600; margin: 2rem 0;">
+                Dependem de consciência.
+              </p>
 
-            <p>Consciência sobre:</p>
+              <p>Consciência sobre:</p>
 
-            <ul class="manifesto__stack manifesto__stack--soft">
-              <li>quem são,</li>
-              <li>como operam,</li>
-              <li>o que representam,</li>
-              <li>e o que jamais deveriam se tornar.</li>
-            </ul>
+              <ul class="manifesto__stack manifesto__stack--soft" style="margin-bottom: 2rem;">
+                <li>quem são,</li>
+                <li>como operam,</li>
+                <li>o que representam,</li>
+                <li>e o que jamais deveriam se tornar.</li>
+              </ul>
 
-            <p>
-              O Visione não é apenas uma plataforma. É o <em>início de uma nova
-              categoria</em>.
-            </p>
+              <p>
+                O Visione não é apenas uma plataforma. É o <em>início de uma nova
+                categoria</em>.
+              </p>
 
-            <p>
-              Uma categoria onde empresas deixam de ser estruturas inanimadas e
-              passam a funcionar como <strong>sistemas vivos</strong>, capazes
-              de perceber, aprender, proteger sua identidade e evoluir
-              continuamente.
-            </p>
+              <p>
+                Uma categoria onde empresas deixam de ser estruturas inanimadas e
+                passam a funcionar como <strong>sistemas vivos</strong>, capazes
+                de perceber, aprender, proteger sua identidade e evoluir
+                continuamente.
+              </p>
 
-            <p class="manifesto__closing">
-              O futuro da gestão não será apenas automatizado.<br />
-              <em>Ele será consciente.</em>
-            </p>
+              <p class="manifesto__closing" style="font-size: 1.4rem; font-weight: 600; margin-top: 3rem;">
+                O futuro da gestão não será apenas automatizado.<br />
+                <em>Ele será consciente.</em>
+              </p>
             </div>
-
-            <button
-              class="manifesto__toggle manifesto__toggle--bottom"
-              type="button"
-              aria-label="Recolher manifesto"
-            >
-              <svg class="manifesto__toggle-icon manifesto__toggle-icon--up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <polyline points="18 15 12 9 6 15"/>
+          </article>
+          <div style="text-align: center; margin-top: 3rem;">
+            <a href="assets/Visione Consciousness Architecture Manifesto.pdf" target="_blank" class="btn btn--primary btn--lg" style="text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
               </svg>
-              <span>Recolher manifesto</span>
-            </button>
-           </div>
+              Baixar Manifesto em PDF
+            </a>
           </div>
         </div>
       </section>
 
-      <!-- MODELANDO A CONSCIÊNCIA ========================================= -->
-      <section
-        id="modelo"
-        class="manifesto manifesto--modelo"
-        data-open="false"
-        data-open-label="Recolher arquitetura"
-        data-closed-label="Ler arquitetura completa"
-      >
-        <div class="container manifesto__container">
-          <header class="manifesto__head">
-            <span class="manifesto__eyebrow">Arquitetura cognitiva</span>
-            <h2 class="manifesto__title">
-              Modelando a <em>consciência</em>.
-            </h2>
-            <p class="manifesto__teaser">
-              Da realidade ao novo estado — as nove camadas que transformam
-              fatos brutos em percepção organizacional, e as primitivas que
-              sustentam um sistema vivo capaz de aprender sobre si mesmo.
-            </p>
-            <button
-              class="manifesto__toggle"
-              type="button"
-              aria-expanded="false"
-              aria-controls="modelo-content"
-            >
-              <span class="manifesto__toggle-label">Ler arquitetura completa</span>
-              <svg class="manifesto__toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <polyline points="6 9 12 15 18 9"/>
-              </svg>
-            </button>
-          </header>
+      <!-- ARQUITETURA COGNITIVA COMPLETA =================================== -->
+      <section id="modelo" class="section section--light-manifesto" style="padding: 5rem 0;">
+        <div class="container" style="max-width: 900px; padding: 0 1.5rem;">
+          <article class="manifesto__inner">
+            <header class="manifesto__head" style="margin-bottom: 4rem;">
+              <span class="manifesto__eyebrow">Arquitetura Cognitiva</span>
+              <h2 class="manifesto__title" style="font-size: clamp(2.2rem, 5vw, 3.6rem); line-height: 1.1; margin-top: 0.5rem; margin-bottom: 1rem;">
+                Modelando a <em>consciência</em>.
+              </h2>
+              <p class="manifesto__teaser" style="font-size: 1.25rem; opacity: 0.85; margin-top: 1rem;">
+                Da realidade ao novo estado — as nove camadas que transformam fatos brutos
+                em percepção organizacional, e as primitivas que sustentam um sistema vivo capaz de aprender sobre si mesmo.
+              </p>
+            </header>
 
-          <div class="manifesto__reveal" id="modelo-content">
-            <div class="manifesto__inner">
-              <div class="manifesto__body">
+            <div class="manifesto__body" style="font-size: 1.15rem; line-height: 1.7;">
+              <p class="manifesto__lead" style="font-size: 1.4rem; font-weight: 500; margin-bottom: 2rem;">
+                Toda empresa moderna mede praticamente tudo.
+              </p>
 
-                <p class="manifesto__lead">
-                  Toda empresa moderna mede praticamente tudo.
-                </p>
+              <p>
+                Indicadores, dashboards, ERPs, BIs, planilhas, auditorias.
+                Há informação em abundância. E, ainda assim, a maioria das
+                organizações continua sem conseguir <em>se ver</em>.
+              </p>
 
-                <p>
-                  Indicadores, dashboards, ERPs, BIs, planilhas, auditorias.
-                  Há informação em abundância. E, ainda assim, a maioria das
-                  organizações continua sem conseguir <em>se ver</em>.
-                </p>
+              <p>O problema raramente é dado. É distância.</p>
 
-                <p>O problema raramente é dado. É distância.</p>
+              <p class="manifesto__statement" style="font-size: 1.3rem; font-weight: 600; margin: 2rem 0;">
+                A distância entre causa e efeito.
+              </p>
 
-                <p class="manifesto__statement">
-                  A distância entre causa e efeito.
-                </p>
+              <p>
+                Na medicina, um erro mostra consequência em horas. Na
+                administração, ele leva semanas, meses, às vezes anos para
+                aparecer — e, quando aparece, vem misturado a outras dezenas
+                de decisões tomadas pelo caminho.
+              </p>
 
-                <p>
-                  Na medicina, um erro mostra consequência em horas. Na
-                  administração, ele leva semanas, meses, às vezes anos para
-                  aparecer — e, quando aparece, vem misturado a outras dezenas
-                  de decisões tomadas pelo caminho.
-                </p>
+              <p>É por isso que empresas:</p>
 
-                <p>É por isso que empresas:</p>
+              <ul class="manifesto__stack manifesto__stack--soft" style="margin-bottom: 2rem;">
+                <li>corrigem sintomas no lugar de causas,</li>
+                <li>operam de forma reativa,</li>
+                <li>degradam silenciosamente,</li>
+                <li>tomam decisões que parecem corretas e produzem efeitos destrutivos no futuro.</li>
+              </ul>
 
-                <ul class="manifesto__stack manifesto__stack--soft">
-                  <li>corrigem sintomas no lugar de causas,</li>
-                  <li>operam de forma reativa,</li>
-                  <li>degradam silenciosamente,</li>
-                  <li>tomam decisões que parecem corretas e produzem efeitos destrutivos no futuro.</li>
-                </ul>
+              <p>
+                O Visione existe para encurtar essa distância. E, para isso,
+                ele precisa transformar realidade em algo que sistemas
+                tradicionais nunca conseguiram modelar:
+              </p>
 
-                <p>
-                  O Visione existe para encurtar essa distância. E, para isso,
-                  ele precisa transformar realidade em algo que sistemas
-                  tradicionais nunca conseguiram modelar:
-                </p>
+              <p class="manifesto__word" style="font-size: 3.5rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.1em; margin: 2.5rem 0;">
+                consciência.
+              </p>
 
-                <p class="manifesto__word">consciência.</p>
+              <p>
+                Não no sentido metafórico. No sentido funcional:
+              </p>
 
-                <p>
-                  Não no sentido metafórico. No sentido funcional:
-                </p>
+              <blockquote class="manifesto__quote" style="font-style: italic; padding-left: 1.5rem; margin: 2.5rem 0; font-size: 1.3rem; font-weight: 500;">
+                A capacidade da organização <em>perceber, interpretar,
+                aprender e evoluir</em> continuamente sobre si mesma.
+              </blockquote>
 
-                <blockquote class="manifesto__quote">
-                  A capacidade da organização <em>perceber, interpretar,
-                  aprender e evoluir</em> continuamente sobre si mesma.
-                </blockquote>
+              <p>
+                Para que isso funcione como sistema — e não como discurso —
+                o Visione organiza toda a realidade da empresa em uma
+                estrutura conceitual de nove camadas. Do fato bruto à
+                decisão consciente.
+              </p>
 
-                <p>
-                  Para que isso funcione como sistema — e não como discurso —
-                  o Visione organiza toda a realidade da empresa em uma
-                  estrutura conceitual de nove camadas. Do fato bruto à
-                  decisão consciente.
-                </p>
+              <p class="manifesto__statement" style="font-size: 1.3rem; font-weight: 600; margin: 2rem 0;">
+                É assim que a percepção é construída.
+              </p>
 
-                <p class="manifesto__statement">
-                  É assim que a percepção é construída.
-                </p>
+              <!-- FLUXO COGNITIVO DE 9 ETAPAS -->
+              <ol class="modelo__flow" aria-label="Fluxo cognitivo de nove camadas" style="margin: 3rem 0; padding: 0; list-style: none;">
+                <li class="modelo__step">
+                  <span class="modelo__num">01</span>
+                  <strong>Realidade</strong>
+                  <span>O que de fato acontece — antes mesmo de ser percebido.</span>
+                </li>
+                <li class="modelo__step">
+                  <span class="modelo__num">02</span>
+                  <strong>Eventos</strong>
+                  <span>Fatos discretos: uma auditoria, uma decisão, uma falha, uma venda.</span>
+                </li>
+                <li class="modelo__step">
+                  <span class="modelo__num">03</span>
+                  <strong>Percepção</strong>
+                  <span>O sistema reconhece o evento e o registra no contexto da empresa.</span>
+                </li>
+                <li class="modelo__step">
+                  <span class="modelo__num">04</span>
+                  <strong>Correlação</strong>
+                  <span>Eventos isolados ganham relação com outros — no tempo e entre áreas.</span>
+                </li>
+                <li class="modelo__step">
+                  <span class="modelo__num">05</span>
+                  <strong>Causalidade</strong>
+                  <span>De correlação a causa: o porquê real começa a aparecer.</span>
+                </li>
+                <li class="modelo__step">
+                  <span class="modelo__num">06</span>
+                  <strong>Interpretação</strong>
+                  <span>O modelo atribui significado: risco, padrão, propagação, oportunidade.</span>
+                </li>
+                <li class="modelo__step modelo__step--peak">
+                  <span class="modelo__num">07</span>
+                  <strong>Consciência</strong>
+                  <span>A organização percebe a si mesma — sua maturidade, seus desvios, sua trajetória.</span>
+                </li>
+                <li class="modelo__step">
+                  <span class="modelo__num">08</span>
+                  <strong>Decisão</strong>
+                  <span>A ação é tomada com clareza causal, não por reação ao sintoma.</span>
+                </li>
+                <li class="modelo__step">
+                  <span class="modelo__num">09</span>
+                  <strong>Novo estado organizacional</strong>
+                  <span>O ciclo recomeça — com aprendizado acumulado.</span>
+                </li>
+              </ol>
 
-                <!-- FLUXO COGNITIVO DE 9 ETAPAS -->
-                <ol class="modelo__flow" aria-label="Fluxo cognitivo de nove camadas">
-                  <li class="modelo__step">
-                    <span class="modelo__num">01</span>
-                    <strong>Realidade</strong>
-                    <span>O que de fato acontece — antes mesmo de ser percebido.</span>
-                  </li>
-                  <li class="modelo__step">
-                    <span class="modelo__num">02</span>
-                    <strong>Eventos</strong>
-                    <span>Fatos discretos: uma auditoria, uma decisão, uma falha, uma venda.</span>
-                  </li>
-                  <li class="modelo__step">
-                    <span class="modelo__num">03</span>
-                    <strong>Percepção</strong>
-                    <span>O sistema reconhece o evento e o registra no contexto da empresa.</span>
-                  </li>
-                  <li class="modelo__step">
-                    <span class="modelo__num">04</span>
-                    <strong>Correlação</strong>
-                    <span>Eventos isolados ganham relação com outros — no tempo e entre áreas.</span>
-                  </li>
-                  <li class="modelo__step">
-                    <span class="modelo__num">05</span>
-                    <strong>Causalidade</strong>
-                    <span>De correlação a causa: o porquê real começa a aparecer.</span>
-                  </li>
-                  <li class="modelo__step">
-                    <span class="modelo__num">06</span>
-                    <strong>Interpretação</strong>
-                    <span>O modelo atribui significado: risco, padrão, propagação, oportunidade.</span>
-                  </li>
-                  <li class="modelo__step modelo__step--peak">
-                    <span class="modelo__num">07</span>
-                    <strong>Consciência</strong>
-                    <span>A organização percebe a si mesma — sua maturidade, seus desvios, sua trajetória.</span>
-                  </li>
-                  <li class="modelo__step">
-                    <span class="modelo__num">08</span>
-                    <strong>Decisão</strong>
-                    <span>A ação é tomada com clareza causal, não por reação ao sintoma.</span>
-                  </li>
-                  <li class="modelo__step">
-                    <span class="modelo__num">09</span>
-                    <strong>Novo estado organizacional</strong>
-                    <span>O ciclo recomeça — com aprendizado acumulado.</span>
-                  </li>
-                </ol>
+              <p>
+                Cada camada existe para responder a uma pergunta diferente.
+                Não basta saber <em>o que aconteceu</em>: é preciso entender
+                o que está se repetindo, o que está propagando, o que está
+                silenciosamente mudando o estado da empresa.
+              </p>
 
-                <p>
-                  Cada camada existe para responder a uma pergunta diferente.
-                  Não basta saber <em>o que aconteceu</em>: é preciso entender
-                  o que está se repetindo, o que está propagando, o que está
-                  silenciosamente mudando o estado da empresa.
-                </p>
+              <p class="manifesto__statement" style="font-size: 1.3rem; font-weight: 600; margin: 2rem 0;">
+                Consciência não nasce de eventos isolados. Ela emerge de
+                padrões.
+              </p>
 
-                <p class="manifesto__statement">
-                  Consciência não nasce de eventos isolados. Ela emerge de
-                  padrões.
-                </p>
+              <p>
+                É por isso que o Visione não pode ser apenas um registrador.
+                Ele opera sobre sete primitivas estruturais — entidades que
+                são, ao mesmo tempo, modelo de dados e camada de
+                inteligência.
+              </p>
 
-                <p>
-                  É por isso que o Visione não pode ser apenas um registrador.
-                  Ele opera sobre sete primitivas estruturais — entidades que
-                  são, ao mesmo tempo, modelo de dados e camada de
-                  inteligência.
-                </p>
-
-                <!-- PRIMITIVAS -->
-                <div class="modelo__primitives" aria-label="Primitivas da consciência organizacional">
-                  <article class="modelo__primitive">
-                    <span class="modelo__tag">EVENTS</span>
-                    <p>Fatos objetivos — auditorias, ocorrências, indicadores, decisões.</p>
-                  </article>
-                  <article class="modelo__primitive">
-                    <span class="modelo__tag">SIGNALS</span>
-                    <p>Padrões emergentes — repetição, frequência, propagação, persistência temporal.</p>
-                  </article>
-                  <article class="modelo__primitive">
-                    <span class="modelo__tag">STATES</span>
-                    <p>Estado organizacional corrente — operação, cultura, liderança, risco sistêmico.</p>
-                  </article>
-                  <article class="modelo__primitive">
-                    <span class="modelo__tag">CAUSALITY</span>
-                    <p>Relações prováveis — delays, loops, dependências, impactos multicamadas.</p>
-                  </article>
-                  <article class="modelo__primitive">
-                    <span class="modelo__tag">INSIGHTS</span>
-                    <p>Interpretação cognitiva — hipóteses, alertas, riscos invisíveis, incoerências.</p>
-                  </article>
-                  <article class="modelo__primitive">
-                    <span class="modelo__tag">DECISIONS</span>
-                    <p>Ações tomadas com contexto, responsáveis e impactos esperados.</p>
-                  </article>
-                  <article class="modelo__primitive modelo__primitive--wide">
-                    <span class="modelo__tag">LEARNING</span>
-                    <p>Aprendizado acumulado — a memória institucional que sobrevive à rotatividade e fortalece a maturidade ao longo do tempo.</p>
-                  </article>
-                </div>
-
-                <p>
-                  Nada disso é arbitrário. O Visione não inventa uma teoria
-                  nova — ele integra cinco disciplinas que estudam, há
-                  décadas, como sistemas complexos aprendem.
-                </p>
-
-                <!-- FUNDAMENTOS CIENTÍFICOS -->
-                <div class="modelo__foundations" aria-label="Fundamentos científicos do modelo">
-                  <article class="modelo__foundation">
-                    <h4>System Dynamics</h4>
-                    <p>Modelar propagação, delays, feedback loops e causalidade temporal.</p>
-                    <small>Forrester · Senge</small>
-                  </article>
-                  <article class="modelo__foundation">
-                    <h4>Causal Inference</h4>
-                    <p>Identificar relações causais reais e evitar falsas correlações.</p>
-                    <small>Bayesian Networks · DAGs · SCM</small>
-                  </article>
-                  <article class="modelo__foundation">
-                    <h4>Complex Adaptive Systems</h4>
-                    <p>Tratar a organização como múltiplos agentes em adaptação contínua.</p>
-                    <small>Efeitos emergentes</small>
-                  </article>
-                  <article class="modelo__foundation">
-                    <h4>Cybernetics</h4>
-                    <p>Sensores, interpretação, feedback, correção e aprendizado.</p>
-                    <small>Sistema cibernético</small>
-                  </article>
-                  <article class="modelo__foundation">
-                    <h4>Organizational Learning</h4>
-                    <p>Transformar experiência em evolução institucional.</p>
-                    <small>Senge · Argyris · Schön</small>
-                  </article>
-                </div>
-
-                <p>
-                  Essa fundamentação é o que diferencia uma plataforma de
-                  consciência de um dashboard sofisticado. Não se trata apenas
-                  de mostrar números: trata-se de tratar a empresa pelo que
-                  ela realmente é — um sistema vivo, com agentes, delays,
-                  loops e padrões emergentes.
-                </p>
-
-                <p class="manifesto__statement">
-                  E onde isso se posiciona no stack corporativo?
-                </p>
-
-                <p>
-                  O Visione <strong>não substitui</strong> o ERP, o CRM, o
-                  sistema financeiro ou o fiscal. Esses sistemas continuarão
-                  registrando transações, e essa é a função deles. O Visione
-                  atuará <em>acima</em> deles, conectando o que sempre ficou
-                  desconectado:
-                </p>
-
-                <ul class="manifesto__roles">
-                  <li>operação</li>
-                  <li>cultura</li>
-                  <li>liderança</li>
-                  <li>financeiro</li>
-                  <li>decisões</li>
-                  <li>comportamento</li>
-                  <li>maturidade</li>
-                  <li>causalidade</li>
-                </ul>
-
-                <blockquote class="manifesto__quote">
-                  O Visione transforma informação em
-                  <em>percepção organizacional</em>.
-                </blockquote>
-
-                <p>
-                  Esse posicionamento muda a categoria. O Visione deixa de se
-                  comportar como ERP, BI, sistema de auditoria ou analytics
-                  tradicional. Ele começa a se posicionar como algo diferente:
-                </p>
-
-                <p class="manifesto__word">um sistema nervoso.</p>
-
-                <p>
-                  Um sistema nervoso organizacional capaz de:
-                </p>
-
-                <ul class="manifesto__stack manifesto__stack--block">
-                  <li>perceber o que está acontecendo agora;</li>
-                  <li>interpretar o que esses sinais significam para a empresa;</li>
-                  <li>aprender com decisões passadas e propagar esse aprendizado;</li>
-                  <li>correlacionar áreas, equipes e disciplinas que viviam isoladas;</li>
-                  <li>simular impactos antes que eles se tornem irreversíveis;</li>
-                  <li>proteger a identidade e a cultura da degradação silenciosa;</li>
-                  <li>reduzir a distância entre causa e efeito;</li>
-                  <li>fortalecer a maturidade organizacional ao longo do tempo.</li>
-                </ul>
-
-                <p class="manifesto__statement manifesto__statement--em">
-                  O futuro da gestão não será apenas <em>automatizado</em>.
-                </p>
-
-                <p>Ele será:</p>
-
-                <ul class="manifesto__roles">
-                  <li>contextual</li>
-                  <li>sistêmico</li>
-                  <li>adaptativo</li>
-                  <li>probabilístico</li>
-                  <li>cognitivo</li>
-                  <li>consciente</li>
-                </ul>
-
-                <p class="manifesto__closing">
-                  O Visione é a primeira camada disso.<br />
-                  <em>Modelando a consciência, uma empresa por vez.</em>
-                </p>
+              <!-- PRIMITIVAS -->
+              <div class="modelo__primitives" aria-label="Primitivas da consciência organizacional" style="margin: 3rem 0;">
+                <article class="modelo__primitive">
+                  <span class="modelo__tag">EVENTS</span>
+                  <p>Fatos objetivos — auditorias, ocorrências, indicadores, decisões.</p>
+                </article>
+                <article class="modelo__primitive">
+                  <span class="modelo__tag">SIGNALS</span>
+                  <p>Padrões emergentes — repetição, frequência, propagação, persistência temporal.</p>
+                </article>
+                <article class="modelo__primitive">
+                  <span class="modelo__tag">STATES</span>
+                  <p>Estado organizacional corrente — operação, cultura, liderança, risco sistêmico.</p>
+                </article>
+                <article class="modelo__primitive">
+                  <span class="modelo__tag">CAUSALITY</span>
+                  <p>Relações prováveis — delays, loops, dependências, impactos multicamadas.</p>
+                </article>
+                <article class="modelo__primitive">
+                  <span class="modelo__tag">INSIGHTS</span>
+                  <p>Interpretação cognitiva — hipóteses, alertas, riscos invisíveis, incoerências.</p>
+                </article>
+                <article class="modelo__primitive">
+                  <span class="modelo__tag">DECISIONS</span>
+                  <p>Ações tomadas com contexto, responsáveis e impactos esperados.</p>
+                </article>
+                <article class="modelo__primitive modelo__primitive--wide">
+                  <span class="modelo__tag">LEARNING</span>
+                  <p>Aprendizado acumulado — a memória institucional que sobrevive à rotatividade e fortalece a maturidade ao longo do tempo.</p>
+                </article>
               </div>
 
-              <button
-                class="manifesto__toggle manifesto__toggle--bottom"
-                type="button"
-                aria-label="Recolher arquitetura"
-              >
-                <svg class="manifesto__toggle-icon manifesto__toggle-icon--up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <polyline points="18 15 12 9 6 15"/>
-                </svg>
-                <span>Recolher arquitetura</span>
-              </button>
+              <p>
+                Nada disso é arbitrário. O Visione não inventa uma teoria
+                nova — ele integra cinco disciplinas que estudam, há
+                décadas, como sistemas complexos aprendem.
+              </p>
+
+              <!-- FUNDAMENTOS CIENTÍFICOS -->
+              <div class="modelo__foundations" aria-label="Fundamentos científicos do modelo" style="margin: 3rem 0;">
+                <article class="modelo__foundation">
+                  <h4>System Dynamics</h4>
+                  <p>Modelar propagação, delays, feedback loops e causalidade temporal.</p>
+                  <small>Forrester · Senge</small>
+                </article>
+                <article class="modelo__foundation">
+                  <h4>Causal Inference</h4>
+                  <p>Identificar relações causais reais e evitar falsas correlações.</p>
+                  <small>Bayesian Networks · DAGs · SCM</small>
+                </article>
+                <article class="modelo__foundation">
+                  <h4>Complex Adaptive Systems</h4>
+                  <p>Tratar a organização como múltiplos agentes em adaptação contínua.</p>
+                  <small>Efeitos emergentes</small>
+                </article>
+                <article class="modelo__foundation">
+                  <h4>Cybernetics</h4>
+                  <p>Sensores, interpretação, feedback, correção e aprendizado.</p>
+                  <small>Sistema cibernético</small>
+                </article>
+                <article class="modelo__foundation">
+                  <h4>Organizational Learning</h4>
+                  <p>Transformar experiência em evolução institucional.</p>
+                  <small>Senge · Argyris · Schön</small>
+                </article>
+              </div>
+
+              <p>
+                Essa fundamentação é o que diferencia uma plataforma de
+                consciência de um dashboard sofisticado. Não se trata apenas
+                de mostrar números: trata-se de tratar a empresa pelo que
+                ela realmente é — um sistema vivo, com agentes, delays,
+                loops e padrões emergentes.
+              </p>
+
+              <p class="manifesto__statement" style="font-size: 1.3rem; font-weight: 600; margin: 2rem 0;">
+                E onde isso se posiciona no stack corporativo?
+              </p>
+
+              <p>
+                O Visione <strong>não substitui</strong> o ERP, o CRM, o
+                sistema financeiro ou o fiscal. Esses sistemas continuarão
+                registrando transações, e essa é a função deles. O Visione
+                atuará <em>acima</em> deles, conectando o que sempre ficou
+                desconectado:
+              </p>
+
+              <ul class="manifesto__roles" style="margin-bottom: 2.5rem;">
+                <li>operação</li>
+                <li>cultura</li>
+                <li>liderança</li>
+                <li>financeiro</li>
+                <li>decisões</li>
+                <li>comportamento</li>
+                <li>maturidade</li>
+                <li>causalidade</li>
+              </ul>
+
+              <blockquote class="manifesto__quote" style="font-style: italic; padding-left: 1.5rem; margin: 2.5rem 0; font-size: 1.3rem; font-weight: 500;">
+                O Visione transforma informação em
+                <em>percepção organizacional</em>.
+              </blockquote>
+
+              <p>
+                Esse posicionamento muda a categoria. O Visione deixa de se
+                comportar como ERP, BI, sistema de auditoria ou analytics
+                tradicional. Ele começa a se posicionar como algo diferente:
+              </p>
+
+              <p class="manifesto__word" style="font-size: 3.5rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.1em; margin: 2.5rem 0;">
+                um sistema nervoso.
+              </p>
+
+              <p>
+                Um sistema nervoso organizacional capaz de:
+              </p>
+
+              <ul class="manifesto__stack manifesto__stack--block" style="margin-bottom: 2.5rem;">
+                <li>perceber o que está acontecendo agora;</li>
+                <li>interpretar o que esses sinais significam para a empresa;</li>
+                <li>aprender com decisões passadas e propagar esse aprendizado;</li>
+                <li>correlacionar áreas, equipes e disciplinas que viviam isoladas;</li>
+                <li>simular impactos antes que eles se tornem irreversíveis;</li>
+                <li>proteger a identidade e a cultura da degradação silenciosa;</li>
+                <li>reduzir a distância entre causa e efeito;</li>
+                <li>fortalecer a maturidade organizacional ao longo do tempo.</li>
+              </ul>
+
+              <p class="manifesto__statement manifesto__statement--em" style="font-style: italic; font-weight: 600; margin: 2rem 0;">
+                O futuro da gestão não será apenas <em>automatizado</em>.
+              </p>
+
+              <p>Ele será:</p>
+
+              <ul class="manifesto__roles" style="margin-bottom: 2.5rem;">
+                <li>contextual</li>
+                <li>sistêmico</li>
+                <li>adaptativo</li>
+                <li>probabilístico</li>
+                <li>cognitivo</li>
+                <li>consciente</li>
+              </ul>
+
+              <p class="manifesto__closing" style="font-size: 1.4rem; font-weight: 600; margin-top: 3rem;">
+                O Visione é a primeira camada disso.<br />
+                <em>Modelando a consciência, uma empresa por vez.</em>
+              </p>
             </div>
-          </div>
+          </article>
         </div>
       </section>
 
@@ -1606,7 +1564,7 @@
     <footer class="footer">
       <div class="container footer__inner">
         <div class="footer__brand">
-          <img class="nav__mark" src="favicon.png" alt="" aria-hidden="true" />
+          <img class="nav__mark" src="images/favicon.png" alt="" aria-hidden="true" />
           <span>Visione</span>
         </div>
         <p class="footer__line">
@@ -1618,7 +1576,7 @@
       </div>
     </footer>
 
-    <script src="script.js" defer></script>
-    <script src="chat.js" defer></script>
+    <script src="js/script.js" defer></script>
+    <script src="js/chat.js" defer></script>
   </body>
 </html>

@@ -1,0 +1,14 @@
+{
+  "name": "visione-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site institucional do Visione — Sistema operacional de maturidade organizacional",
+  "scripts": {
+    "dev": "vite --port 3000 --open",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.2.11"
+  }
+}
